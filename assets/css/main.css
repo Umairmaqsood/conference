@@ -1552,7 +1552,7 @@ section,
 }
 
 .buy-tickets .featured {
-  background: var(--accent-color);
+  background: #000820;
 }
 
 .buy-tickets .featured h3,
