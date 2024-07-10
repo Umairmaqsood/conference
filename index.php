@@ -1,3 +1,8 @@
+
+<?php
+include("conn.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +23,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
     <!-- Vendor CSS Files -->
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -44,7 +48,7 @@
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center"
       >
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="assets/img/ficselogo.png" alt="ficse" />
 
           <!-- <h1 class="sitename">TheEvent</h1>  -->
@@ -53,7 +57,7 @@
         <nav id="navmenu" class="navmenu">
           <ul>
             <li>
-              <a href="#hero" class="active">Home<br /></a>
+              <a href="index.php" class="active">Home<br /></a>
             </li>
 
             <li class="dropdown">
@@ -87,7 +91,7 @@
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="about.php">About Us</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -129,7 +133,7 @@
                   Conference on Computer Science and Engineering (FICSE)” from
                   September 29 – 30, 2024 at Foundation University Islamabad,
                   School of Science and Technology. The conference will
-                  <a href="" style="text-decoration: none">read more</a>
+                  <a href="about.php" style="text-decoration: none">read more</a>
                 </p>
               </div>
               <div class="col-lg-3">
@@ -285,7 +289,7 @@
 
         <div class="container section-title" data-aos="fade-up">
           <h2>Call for Papers</h2>
-          <p>Submit your research.</p>
+          <p>Submit your Research Papers/Proposals.</p>
         </div>
 
         <div class="container">
@@ -1275,7 +1279,7 @@
               >
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
-                <p>info@ficse.fui.edu.pk</p>
+                <p>Ficse@fui.edu.pk</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -1369,7 +1373,7 @@
         <div class="container">
           <div class="row gy-4">
             <div class="col-lg-3 col-md-6 footer-about">
-              <a href="index.html" class="logo d-flex align-items-center">
+              <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/fuiimage.png" />
               </a>
               <div class="footer-contact pt-1">
