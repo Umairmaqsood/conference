@@ -806,141 +806,7 @@ include("conn.php");
           </div>
         </div>
 
-        <!-- <div
-          class="container-fluid venue-gallery-container"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <div class="row g-0">
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-1.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-1.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-2.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-2.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-3.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-3.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-4.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-4.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-5.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-5.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-6.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-6.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-7.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-7.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4">
-              <div class="venue-gallery">
-                <a
-                  href="assets/img/venue-gallery/venue-gallery-8.jpg"
-                  class="glightbox"
-                  data-gall="venue-gallery"
-                >
-                  <img
-                    src="assets/img/venue-gallery/venue-gallery-8.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> -->
+     
       </section>
       <!-- /Venue Section -->
 
@@ -1082,57 +948,7 @@ include("conn.php");
           </div>
         </div>
       </section>
-      <!-- /Gallery Section -->
-
-      <!-- Sponsors Section -->
-      <!-- <section id="sponsors" class="sponsors section light-background"> -->
-
-      <!-- Section Title -->
-      <!--  <div class="container section-title" data-aos="fade-up">
-        <h2>Sponsors</h2>
-        <p>Discover our valued sponsors who support our mission and contribute to our success.</p>
-      </div> --><!-- End Section Title -->
-
-      <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0 clients-wrap">
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-
-      <!-- <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-
-      <!-- <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-
-      <!--  <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-
-      <!--  <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-
-      <!--  <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-
-      <!--  <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-
-      <!--  <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-          </div> --><!-- End Client Item -->
-      <!-- </div>
-
-      </div>
-
-    </section> --><!-- /Sponsors Section -->
+    
 
       <!-- Faq Section -->
       <section id="faq" class="faq section light-background">
@@ -1383,7 +1199,7 @@ include("conn.php");
                   <strong>Phone:</strong> <span>+92-51-5151437</span>
                 </p>
                 <p>
-                  <strong>Email:</strong> <span>info@ficse.fui.edu.pk</span>
+                  <strong>Email:</strong> <span>Ficse@fui.edu.pk</span>
                 </p>
               </div>
             </div>

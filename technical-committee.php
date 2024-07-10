@@ -14,12 +14,12 @@ include ("header.php");
         style="background-image: url(assets/img/page-title-bg.webp)"
       >
         <div class="container position-relative">
-          <h1 style="color:white">About Us</h1>
+          <h1 style="color:white">Technical Committee</h1>
           
           <nav class="breadcrumbs">
             <ol>
               <li><a href="index.php">Home</a></li>
-              <li class="current">About Us</li>
+              <li class="current">Technical Committee</li>
             </ol>
           </nav>
         </div>

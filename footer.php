@@ -16,7 +16,7 @@
                   <strong>Phone:</strong> <span>+92-51-5151437</span>
                 </p>
                 <p>
-                  <strong>Email:</strong> <span>info@ficse.fui.edu.pk</span>
+                  <strong>Email:</strong> <span>Ficse@fui.edu.pk</span>
                 </p>
               </div>
             </div>
