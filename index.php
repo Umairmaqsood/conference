@@ -73,21 +73,21 @@ include("conn.php");
             </li>
 
             <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#">Patrons</a></li>
+            <li><a href="patron.php">Patrons</a></li>
             <li class="dropdown">
               <a href="#"
                 ><span>Committees</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
               <ul>
-                <li><a href="#">Organizing Committee</a></li>
-                <li><a href="#">Technical Committee</a></li>
-                <li><a href="#">Chief Organizer</a></li>
-                <li><a href="#">Reviewers Committee</a></li>
-                <li><a href="#">Awareness/Outreach Committee</a></li>
-                <li><a href="#">Support Services Committee</a></li>
-                <li><a href="#">Finance Committee</a></li>
-                <li><a href="#">Website Committee</a></li>
+                <li><a href="organizing-committee.php">Organizing Committee</a></li>
+                <li><a href="technical-committee.php">Technical Committee</a></li>
+                <li><a href="cheif-organizer.php">Chief Organizer</a></li>
+                <li><a href="reviewer-committee.php">Reviewers Committee</a></li>
+                <li><a href="awareness-committee.php">Awareness/Outreach Committee</a></li>
+                <li><a href="support-service-committee.php">Support Services Committee</a></li>
+                <li><a href="finance-committee.php">Finance Committee</a></li>
+                <li><a href="website-committee.php">Website Committee</a></li>
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
