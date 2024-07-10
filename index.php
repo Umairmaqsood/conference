@@ -586,9 +586,6 @@ include("conn.php");
                   <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
                 </div>
               </div>
-
-             
-
           
             </div>
           </div>
