@@ -68,12 +68,22 @@ include("conn.php");
               <ul>
                 <li><a href="#speakers">Speakers</a></li>
                 <li><a href="#call-for-papers">Call for Papers</a></li>
-                <li><a href="#">Submission Guidelines</a></li>
+                <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </li>
 
             <li><a href="#schedule">Schedule</a></li>
-            <li><a href="patron.php">Patrons</a></li>
+          
+            <li class="dropdown">
+              <a href="patron.php"
+                ><span>Patrons</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="patron-chief.php">Patrons In Cheif</a></li>
+</ul>
+</li>
+
             <li class="dropdown">
               <a href="#"
                 ><span>Committees</span>
@@ -87,7 +97,7 @@ include("conn.php");
                 <li><a href="awareness-committee.php">Awareness/Outreach Committee</a></li>
                 <li><a href="support-service-committee.php">Support Services Committee</a></li>
                 <li><a href="finance-committee.php">Finance Committee</a></li>
-                <li><a href="website-committee.php">Website Committee</a></li>
+                <li><a href="operation-committee.php">Operations Committee</a></li>
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>

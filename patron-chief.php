@@ -11,11 +11,11 @@ include("header.php");
         style="background-image: url(assets/img/page-title-bg.webp); text-align: center;"
     >
         <div class="container position-relative">
-            <h1 style="color:white">Finance Committee</h1>
+            <h1 style="color:white">Patrons-In-Chief</h1>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="index.php">Home</a></li>
-                    <li class="current">Finance Committee</li>
+                    <li class="current">Patrons-In-Chief</li>
                 </ol>
             </nav>
         </div>
@@ -24,26 +24,35 @@ include("header.php");
 
     <!-- Events Section -->
     <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">   
             <div class="row gy-4">
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/shariq.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <img src="assets/img/speakers/rectorfui.jpg" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>Dr. Shariq Hussain</h4>
-                                <h5>Associate Professor, FUSST</h5>
+                                <h4>
+                                Maj Gen Muhammad Kaleem Asif, HI(M) (Retd)
+                                </h4>
+                                <h5>
+                                Rector, Foundation University Islamabad
+                                </h5>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/avatar.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <img src="assets/img/speakers/prorector.png" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>Mr. Sohail Anjum</h4>
-                                <h5>Coordinator, FUSST</h5>
+                                <h4>
+                                Professor Dr. Abdul Ghafoor
+                                </h4>
+                                <h5>
+                                Pro Rector/Director, FUSST
+                                </h5>
                             </div>
                         </div>
                     </div>
