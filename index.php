@@ -408,9 +408,7 @@ include("conn.php");
                 >Day 2</a
               >
             </li>
-            <!--  <li class="nav-item">
-            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
-          </li> -->
+          
           </ul>
 
           <div
@@ -510,43 +508,8 @@ include("conn.php");
                 </div>
               </div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>03:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-5.jpg"
-                      alt="Alejandrin Littel"
-                    />
-                  </div>
-                  <h4>
-                    Quos ratione neque expedita asperiores.
-                    <span>Alejandrin Littel</span>
-                  </h4>
-                  <p>
-                    Eligendi quo eveniet est nobis et ad temporibus odio quo.
-                  </p>
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>04:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-6.jpg"
-                      alt="Willow Trantow"
-                    />
-                  </div>
-                  <h4>
-                    Quo qui praesentium nesciunt <span>Willow Trantow</span>
-                  </h4>
-                  <p>
-                    Voluptatem et alias dolorum est aut sit enim neque
-                    veritatis.
-                  </p>
-                </div>
-              </div>
+            
+            
             </div>
             <!-- End Schdule Day 1 -->
 
@@ -624,43 +587,9 @@ include("conn.php");
                 </div>
               </div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>03:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-5.jpg"
-                      alt="Alejandrin Littel"
-                    />
-                  </div>
-                  <h4>
-                    Quos ratione neque expedita asperiores.
-                    <span>Alejandrin Littel</span>
-                  </h4>
-                  <p>
-                    Eligendi quo eveniet est nobis et ad temporibus odio quo.
-                  </p>
-                </div>
-              </div>
+             
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>04:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-6.jpg"
-                      alt="Willow Trantow"
-                    />
-                  </div>
-                  <h4>
-                    Quo qui praesentium nesciunt <span>Willow Trantow</span>
-                  </h4>
-                  <p>
-                    Voluptatem et alias dolorum est aut sit enim neque
-                    veritatis.
-                  </p>
-                </div>
-              </div>
+          
             </div>
           </div>
         </div>
