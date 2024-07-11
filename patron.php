@@ -11,11 +11,11 @@ include("header.php");
         style="background-image: url(assets/img/page-title-bg.webp); text-align: center;"
     >
         <div class="container position-relative">
-            <h1 style="color:white">Patron</h1>
+            <h1 style="color:white">Patrons</h1>
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="index.php">Home</a></li>
-                    <li class="current">Patron</li>
+                    <li class="current">Patrons</li>
                 </ol>
             </nav>
         </div>

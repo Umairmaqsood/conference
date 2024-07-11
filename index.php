@@ -126,7 +126,7 @@ include("conn.php");
           </p>
           <div data-aos="fade-up" data-aos-delay="300" class="">
             <a
-              href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+              href="https://youtu.be/UEE9TzoFlH0"
               class="glightbox pulsating-play-btn mt-3"
             ></a>
           </div>
@@ -489,27 +489,7 @@ include("conn.php");
                     aspernatur.
                   </p>
                 </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>02:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-4-2.jpg"
-                      alt="Jack Christiansen"
-                    />
-                  </div>
-                  <h4>
-                    Qui non qui vel amet culpa sequi.
-                    <span>Jack Christiansen</span>
-                  </h4>
-                  <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                </div>
-              </div>
-
-            
-            
+              </div>    
             </div>
             <!-- End Schdule Day 1 -->
 
@@ -570,22 +550,7 @@ include("conn.php");
                 </div>
               </div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>02:00 PM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-4-2.jpg"
-                      alt="Jack Christiansen"
-                    />
-                  </div>
-                  <h4>
-                    Qui non qui vel amet culpa sequi.
-                    <span>Jack Christiansen</span>
-                  </h4>
-                  <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                </div>
-              </div>
+             
           
             </div>
           </div>
@@ -712,7 +677,7 @@ include("conn.php");
         <div class="container section-title" data-aos="fade-up">
           <h2>Event Venue<br /></h2>
           <p>
-            Seminar Hall, Foundation University Islamabad, School of Science and
+            Seminar Hall 4th Floor, Foundation University Islamabad, School of Science and
             Technology
           </p>
         </div>
@@ -734,8 +699,7 @@ include("conn.php");
             <div class="col-lg-6 venue-info">
               <div class="row justify-content-center">
                 <div class="col-11 col-lg-8 position-relative">
-                  <h3>Seminar Hall, FUSST, Rawalpindi Pakistan</h3>
-                  <!--  <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p> -->
+                  <!-- <h4 style="color:white;">Seminar Hall 4th Floor, FUSST, Rawalpindi Pakistan</h4> -->
                 </div>
               </div>
             </div>
