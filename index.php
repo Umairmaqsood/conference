@@ -80,7 +80,7 @@ include("conn.php");
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
               <ul>
-                <li><a href="patron-chief.php">Patrons In Cheif</a></li>
+                <li><a href="patron-chief.php">Patrons In Chief</a></li>
 </ul>
 </li>
 
@@ -90,9 +90,9 @@ include("conn.php");
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
               <ul>
-                <li><a href="organizing-committee.php">Organizing Committee</a></li>
+              <li><a href="organizing-committee.php">Organizing Committee</a></li>
                 <li><a href="technical-committee.php">Technical Committee</a></li>
-                <li><a href="cheif-organizer.php">Chief Organizer</a></li>
+                <li><a href="chief-organizer.php">Chief Organizer</a></li>
                 <li><a href="reviewer-committee.php">Reviewers Committee</a></li>
                 <li><a href="awareness-committee.php">Awareness/Outreach Committee</a></li>
                 <li><a href="support-service-committee.php">Support Services Committee</a></li>
@@ -1145,27 +1145,28 @@ include("conn.php");
               <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="#speakers">Speakers</a></li>
-                <li><a href="#venue">Venue</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#call-for-papers">Call For Papers</a></li>
+                <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </div>
 
             <div class="col-lg-3 col-md-3 footer-links">
-              <h4 style="color: white">Our Services</h4>
+            <h4 style="color: white">Our Committees</h4>
               <ul>
-                <li><a href="#">Web Design</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Product Management</a></li>
-                <li><a href="#">Marketing</a></li>
+                <li><a href="organizing-committee.php">Organizing Committee</a></li>
+                <li><a href="technical-committee.php">Technical Committee</a></li>
+                <li><a href="awareness-committee.php">Awareness Committee</a></li>
+                <li><a href="operation-committee.php">Operation Committee</a></li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">About Us</h4>
               <ul>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">Calendar</a></li>
-                <li><a href="#">Fee Schedule</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="patron.php">Patrons</a></li>
+                <li><a href="patron-chief.php">Patrons-In-Chief</a></li>
+                <li><a href="chief-organizer.php">Chief Organizer</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
               </ul>
             </div>
           </div>

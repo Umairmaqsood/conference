@@ -77,7 +77,7 @@ include("conn.php");
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
               <ul>
-              <li><a href="patron-chief.php">Patrons In Cheif</a></li>
+              <li><a href="patron-chief.php">Patrons In Chief</a></li>
               </ul>
 </li>
             <li class="dropdown">
@@ -89,7 +89,7 @@ include("conn.php");
              
                 <li><a href="organizing-committee.php">Organizing Committee</a></li>
                 <li><a href="technical-committee.php">Technical Committee</a></li>
-                <li><a href="cheif-organizer.php">Chief Organizer</a></li>
+                <li><a href="chief-organizer.php">Chief Organizer</a></li>
                 <li><a href="reviewer-committee.php">Reviewers Committee</a></li>
                 <li><a href="awareness-committee.php">Awareness/Outreach Committee</a></li>
                 <li><a href="support-service-committee.php">Support Services Committee</a></li>
