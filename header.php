@@ -66,7 +66,7 @@ include("conn.php");
               ></a>
               <ul>
                 <li><a href="#speakers">Speakers</a></li>
-                <li><a href="#call-for-papers">Call for Papers</a></li>
+                <li><a href="call-for-paper.php">Call for Papers</a></li>
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </li>
@@ -98,7 +98,7 @@ include("conn.php");
               </ul>
             
             </li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li><a href="about.php">About Us</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

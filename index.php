@@ -177,7 +177,7 @@ include("conn.php");
             >
               <div class="member">
                 <img
-                  src="assets/img/speakers/shaheen.png"
+                  src="assets/img/speakers/avatar.png"
                   class="img-fluid"
                   alt=""
                 />
@@ -185,7 +185,7 @@ include("conn.php");
                   <div class="member-info-content">
                     <h4>
                       <a href="speaker-details.html"
-                        >Prof Dr Muhammad Shaheen</a
+                        >XYZ</a
                       >
                     </h4>
                     <!-- <span>Dean, FUSST</span> -->
@@ -208,14 +208,14 @@ include("conn.php");
             >
               <div class="member">
                 <img
-                  src="assets/img/speakers/sajid.jpeg"
-                  class="img-fluid"
+                src="assets/img/speakers/avatar.png"
+                                  class="img-fluid"
                   alt=""
                 />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>
-                      <a href="speaker-details.html">Dr. Sajid Ali Khan</a>
+                      <a href="speaker-details.html">XYZ</a>
                     </h4>
                     <!-- <span>HOD,SE FUSST</span> -->
                   </div>
@@ -237,13 +237,13 @@ include("conn.php");
             >
               <div class="member">
                 <img
-                  src="assets/img/speakers/shariq.jpeg"
+                     src="assets/img/speakers/avatar.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="member-info">
                   <div class="member-info-content">
-                    <h4><a href="speaker-details.html">Dr. Shariq</a></h4>
+                    <h4><a href="speaker-details.html">XYZ</a></h4>
                     <!-- <span>AP, FUSST</span> -->
                   </div>
                   <div class="social">
@@ -264,14 +264,14 @@ include("conn.php");
             >
               <div class="member">
                 <img
-                  src="assets/img/speakers/tehmina.jpeg"
+                      src="assets/img/speakers/avatar.png"
                   class="img-fluid"
                   alt=""
                 />
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4>
-                      <a href="speaker-details.html">Dr. Tehmina Karamat</a>
+                      <a href="speaker-details.html">XYZ</a>
                     </h4>
                     <!-- <span>AP, FUSST</span> -->
                   </div>
@@ -795,9 +795,9 @@ include("conn.php");
                 <a
                   class="glightbox"
                   data-gallery="images-gallery"
-                  href="assets/img/event-gallery/event-gallery-1.jpg"
+                  href="assets/img/speakers/furcbuilding.jpg"
                   ><img
-                    src="assets/img/event-gallery/event-gallery-1.jpg"
+                    src="assets/img/speakers/furcbuilding.jpg"
                     class="img-fluid"
                     alt=""
                 /></a>
