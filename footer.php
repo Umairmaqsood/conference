@@ -24,10 +24,10 @@
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">Useful Links</h4>
               <ul>
-                <li><a href="#">Home</a></li>
+              <li><a href="index.php">Home</a></li>
                 <li><a href="#">Speakers</a></li>
                 <li><a href="#">Venue</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
               </ul>
             </div>
 

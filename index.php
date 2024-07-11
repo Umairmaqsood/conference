@@ -105,7 +105,7 @@ include("conn.php");
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="#buy-tickets">Login</a>
+        <a class="cta-btn d-none d-sm-block" href="">Login</a>
       </div>
     </header>
 
@@ -1143,10 +1143,10 @@ include("conn.php");
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">Useful Links</h4>
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="#">Venue</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#venue">Venue</a></li>
+                <li><a href="#contact">Contact Us</a></li>
               </ul>
             </div>
 
