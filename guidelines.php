@@ -22,46 +22,20 @@ include("header.php");
     </div>
     <!-- End Page Title -->
 
+
+
+    <section id="buy-tickets" class="buy-tickets section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Submission Guidelines</h2>
+          <p>To ensure a smooth submission process, please follow the guidelines provided below:</p>
+          </div>
+
+</section>
+
   
 
-    <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
-            <div class="row gy-4">
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/avatar.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Dr. Ali Ahsan
-                                </h4>
-                                <h5>
-                                Torrens University Australia
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/avatar.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                            XYZ 
-                                </h4>
-                                <h5>
-                                  XYZ
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- /Events Section -->
+   
 </main>
 
 <?php
