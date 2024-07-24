@@ -70,10 +70,9 @@ include("conn.php");
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </li>
-
             <li><a href="#schedule">Schedule</a></li>
 
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="patron.php"
                 ><span>Patrons</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i
@@ -81,7 +80,7 @@ include("conn.php");
               <ul>
                 <li><a href="patron-chief.php">Patrons In Chief</a></li>
               </ul>
-            </li>
+            </li> -->
 
             <li class="dropdown">
               <a href="#"
@@ -89,13 +88,16 @@ include("conn.php");
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
               <ul>
+              <li>
+                  <a href="executive-committee.php">Executive Committee</a>
+                </li>
                 <li>
                   <a href="organizing-committee.php">Organizing Committee</a>
                 </li>
                 <li>
                   <a href="technical-committee.php">Technical Committee</a>
                 </li>
-                <li><a href="chief-organizer.php">Chief Organizer</a></li>
+                <!-- <li><a href="chief-organizer.php">Chief Organizer</a></li> -->
                 <li>
                   <a href="reviewer-committee.php">Reviewers Committee</a>
                 </li>
@@ -120,14 +122,14 @@ include("conn.php");
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="">Login</a>
+        <a class="cta-btn d-none d-sm-block" href="">Submit Paper</a>
       </div>
     </header>
 
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="" />
+        <img src="assets/img/speakers/furcbuilding.jpg" alt="" data-aos="fade-in" class="" />
 
         <div
           class="container d-flex flex-column align-items-center text-center mt-auto"
@@ -203,7 +205,7 @@ include("conn.php");
       <section id="speakers" class="speakers section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Event Speakers<br /></h2>
+          <h2>Keynote Speakers<br /></h2>
         </div>
         <!-- End Section Title -->
 
@@ -452,13 +454,13 @@ include("conn.php");
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h3 class="sub-heading">
+            <!-- <h3 class="sub-heading">
               Voluptatem nulla veniam soluta et corrupti consequatur neque
               eveniet officia. Eius necessitatibus voluptatem quis labore
               perspiciatis quia.
-            </h3>
+            </h3> -->
 
-            <!-- Schdule Day 1 -->
+
             <div
               role="tabpanel"
               class="col-lg-9 tab-pane fade show active"
@@ -609,13 +611,7 @@ include("conn.php");
               class="col-lg-8 d-flex align-items-center justify-content-center"
             >
               <ul>
-                <li>
-                  <i class="bi bi-calendar-event"></i>&nbsp;
-                  <strong>
-                    Advertisement in Paper/Social Media/Web:&nbsp;July 20,
-                    2024</strong
-                  >
-                </li>
+                
                 <li>
                   <i class="bi bi-calendar-event"></i>&nbsp;
                   <strong
@@ -672,17 +668,18 @@ include("conn.php");
               class="col-lg-6 d-flex align-items-center justify-content-center"
             >
               <ul>
+              
                 <li>
                   <i class="bi bi-check-circle"></i>&nbsp;
-                  <strong id="fee-regular">
-                    Registration Fee for Regular Attendee:&nbsp;3000 PKR (15
+                  <strong id="fee-student">
+                    Registration Fee for Student Presenter:&nbsp;3000 PKR (15
                     USD)
                   </strong>
                 </li>
                 <li>
                   <i class="bi bi-check-circle"></i>&nbsp;
-                  <strong id="fee-student">
-                    Registration Fee for Student Presenter:&nbsp;4000 PKR (20
+                  <strong id="fee-regular">
+                    Registration Fee for Regular Attendee:&nbsp;4000 PKR (20
                     USD)
                   </strong>
                 </li>
@@ -707,7 +704,7 @@ include("conn.php");
         <div class="container section-title" data-aos="fade-up">
           <h2>Event Venue<br /></h2>
           <p>
-            Seminar Hall, Foundation University School of Science and
+             Foundation University School of Science and
             Technology, New Lalazar, Rawalpindi, Pakistan
           </p>
         </div>

@@ -28,11 +28,11 @@ include("header.php");
             <div class="row gy-4">
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/shariq.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <img src="assets/img/speakers/sherjeel.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
-                                <h4>Dr. Shariq Hussain</h4>
-                                <h5>Associate Professor, FUSST</h5>
+                                <h4>Engr. Sherjeel Farooqui</h4>
+                                <h5>Assistant Professor, FUSST</h5>
                             </div>
                         </div>
                     </div>

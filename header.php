@@ -71,7 +71,7 @@ include("conn.php");
               </ul>
             </li>
             <li><a href="#schedule">Schedule</a></li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="patron.php"
                 ><span>Patrons</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i
@@ -79,17 +79,19 @@ include("conn.php");
               <ul>
               <li><a href="patron-chief.php">Patrons In Chief</a></li>
               </ul>
-</li>
+</li> -->
             <li class="dropdown">
               <a href="#"
                 ><span>Committees</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
               <ul>
-             
+              <li>
+                  <a href="executive-committee.php">Executive Committee</a>
+                </li>
                 <li><a href="organizing-committee.php">Organizing Committee</a></li>
                 <li><a href="technical-committee.php">Technical Committee</a></li>
-                <li><a href="chief-organizer.php">Chief Organizer</a></li>
+                <!-- <li><a href="chief-organizer.php">Chief Organizer</a></li> -->
                 <li><a href="reviewer-committee.php">Reviewers Committee</a></li>
                 <li><a href="awareness-committee.php">Awareness/Outreach Committee</a></li>
                 <li><a href="support-service-committee.php">Support Services Committee</a></li>
@@ -103,7 +105,7 @@ include("conn.php");
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="">Login</a>
+        <a class="cta-btn d-none d-sm-block" href="">Submit Paper</a>
       </div>
     </header>
 </body>
