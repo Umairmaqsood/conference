@@ -15,38 +15,46 @@
                 <p class="mt-2">
                   <strong>Phone:</strong> <span>+92-51-5151437</span>
                 </p>
-                <p>
-                  <strong>Email:</strong> <span>ficse@fui.edu.pk</span>
-                </p>
+                <p><strong>Email:</strong> <span>ficse@fui.edu.pk</span></p>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">Useful Links</h4>
               <ul>
-              <li><a href="index.php">Home</a></li>
-                <li><a href="#">Speakers</a></li>
-                <li><a href="call-for-paper.php">Call For Papers</a></li>
-                <li><a href="guidelines.php">Submission Guidelines</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#call-for-papers">Call For Papers</a></li>
               </ul>
             </div>
 
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">Our Committees</h4>
               <ul>
-                <li><a href="organizing-committee.php">Organizing Committee</a></li>
-                <li><a href="technical-committee.php">Technical Committee</a></li>
-                <li><a href="awareness-committee.php">Awareness Committee</a></li>
-                <li><a href="operation-committee.php">Operation Committee</a></li>
+              <li><a href="executive-committee.php">Executive Committee</a></li>
+
+                <li>
+                  <a href="organizing-committee.php">Organizing Committee</a>
+                </li>
+                <li>
+                  <a href="technical-committee.php">Technical Committee</a>
+                </li>
+                <!-- <li>
+                  <a href="awareness-committee.php">Awareness Committee</a>
+                </li> -->
+                <!-- <li>
+                  <a href="operation-committee.php">Operation Committee</a>
+                </li> -->
               </ul>
             </div>
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">About Us</h4>
               <ul>
-              <li><a href="patron.php">Patrons</a></li>
-                <li><a href="patron-chief.php">Patrons-In-Chief</a></li>
-                <li><a href="chief-organizer.php">Chief Organizer</a></li>
-                <li><a href="contact.php">Contact</a></li>
+         
+                <li><a href="guidelines.php">Submission Guidelines</a></li>
+
+                <li><a href="about.php">Event Details</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
           </div>

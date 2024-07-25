@@ -35,7 +35,7 @@ include("header.php");
           <div style="margin:40px;">
       
           <h2> Conference Template </h2>
-          <p> MS Word Template: <a href="" style="text-decoration:none;" > Download</a> </p>
+          <p>MS Word Template: <a href="ficse-paper-template.docx" style="text-decoration:none;" download>Download</a></p>
       
           <h2>Abstract</h2>
 <p>The text of the paper should be written using Arial font, size 10 points. The section headings should be written in Arial font with the following sizes: Heading Level 1 = 12 points, Level 2 = 11 points, and Level 3 = 10 points. The length of the abstract should be no more than 250 words. Although there is no restriction on the page length of regular papers, the recommended page length is 10-15 pages formatted according to the template. Papers not formatted according to this template will not pass the initial editorial process. Abbreviations should be defined in full the first time they appear, and can then be used thereafter.</p>

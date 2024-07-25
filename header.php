@@ -70,7 +70,7 @@ include("conn.php");
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </li>
-            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="event-schedule.php">Schedule</a></li>
             <!-- <li class="dropdown">
               <a href="patron.php"
                 ><span>Patrons</span>
@@ -105,7 +105,7 @@ include("conn.php");
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="">Submit Paper</a>
+        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/">Submit Paper</a>
       </div>
     </header>
 </body>

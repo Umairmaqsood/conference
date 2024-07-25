@@ -60,6 +60,8 @@ include("header.php");
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
                 <p>+92-51-5151437</p>
+                <p>+92-51-5151991</p>
+
               </div>
             </div>
             <!-- End Info Item -->
@@ -72,7 +74,7 @@ include("header.php");
               >
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
-                <p>Ficse@fui.edu.pk</p>
+                <p>ficse@fui.edu.pk</p>
               </div>
             </div>
             <!-- End Info Item -->

@@ -122,7 +122,8 @@ include("conn.php");
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="">Submit Paper</a>
+        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/">Submit Paper</a>
+
       </div>
     </header>
 
@@ -471,55 +472,55 @@ include("conn.php");
             >
             <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9.00 to 10.20 (Session 1) 4 papers</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 papers</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.20 to 10.50 - Tea break</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:20 to 10:50 - Tea break</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.50 to 11.20 - keynote 1</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - keynote 1</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11.20 to 12.20 - session 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - session 2</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12.20 - 13.00 - keynote 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - keynote 2</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13.00 to 14.00 - Lunch break</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13:00 to 14:00 - Lunch break</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14.00 to 15.00 - Session 3</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14:00 to 15:00 - Session 3</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.00 to 15.30 - keynote 3</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - keynote 3</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.30 to 16.30 - workshop</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - workshop</p>
     </div>
 </div>
 
@@ -532,55 +533,55 @@ include("conn.php");
 
             <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9.00 to 10.20 (Session 1) 4 papers</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 papers</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.20 to 10.50 - Tea break</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:20 to 10:50 - Tea break</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.50 to 11.20 - keynote 1</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - keynote 1</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11.20 to 12.20 - session 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - session 2</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12.20 - 13.00 - keynote 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - keynote 2</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13.00 to 14.00 - Lunch break</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13:00 to 14:00 - Lunch break</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14.00 to 15.00 - Session 3</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14:00 to 15:00 - Session 3</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.00 to 15.30 - keynote 3</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - keynote 3</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.30 to 16.30 - workshop</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - workshop</p>
     </div>
 </div>
              
@@ -907,8 +908,8 @@ include("conn.php");
                   <h3>How can I register for the event?</h3>
                   <div class="faq-content">
                     <p style="color:black;">
-                      Registration can be done through our website [link], or
-                      you can contact our registration team at [email/phone].
+                      Registration can be done through our website or
+                      you can contact our registration team at   +92-51-5151437, <br> +92-51-5151991
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -919,15 +920,15 @@ include("conn.php");
                   <h3>What topics will be covered at the event?</h3>
                   <div class="faq-content">
                     <p style="color:black;">
-                      The event will cover topics such as [list key topics or
-                      themes].
+                      The event will cover topics such as Computing Applications, Electronic Devices Circuits and Application
+                      , Biomedical & Signal Processing , Telecom Engineering and Application.
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
                 </div>
                 <!-- End Faq item-->
 
-                <div class="faq-item">
+                <!-- <div class="faq-item">
                   <h3>Is there a fee to attend the event?</h3>
                   <div class="faq-content">
                     <p style="color:black;">
@@ -936,15 +937,15 @@ include("conn.php");
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
+                </div> -->
                 <!-- End Faq item-->
 
                 <div class="faq-item">
                   <h3>Are there sponsorship opportunities available?</h3>
                   <div class="faq-content">
                     <p style="color:black;">
-                      Yes, we offer various sponsorship packages. Please contact
-                      our sponsorship team at [email/phone] for more
+                      Yes, we offer various packages. Please contact
+                      our team at +92-51-5151437, +92-51-5151991 for more
                       information.
                     </p>
                   </div>
@@ -1010,6 +1011,10 @@ include("conn.php");
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
                 <p style="color:black;">+92-51-5151437</p>
+                <p style="color:black;">+92-51-5151991</p>
+
+                   <footer id="footer" class="footer dark-background">
+    
               </div>
             </div>
             <!-- End Info Item -->
@@ -1028,7 +1033,7 @@ include("conn.php");
             <!-- End Info Item -->
           </div>
 
-          <div class="row gy-4 mt-1">
+          <!-- <div class="row gy-4 mt-1">
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.086970124181!2d73.07153891557309!3d33.56111938054432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9324c7c53e6b%3A0xc63a7b443de04c59!2sNew%20Lalazar%2C%20Rawalpindi%2C%20Punjab!5e0!3m2!1sen!2spk!4v1625859166180!5m2!1sen!2s"
@@ -1041,7 +1046,7 @@ include("conn.php");
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <!-- End Google Maps -->
+         
 
             <div class="col-lg-6">
               <form
@@ -1105,7 +1110,7 @@ include("conn.php");
               </form>
             </div>
           
-          </div>
+          </div> -->
         </div>
       </section>
       <!-- /Contact Section -->
@@ -1124,6 +1129,7 @@ include("conn.php");
                 <p>Pakistan,46000</p>
                 <p class="mt-2">
                   <strong>Phone:</strong> <span>+92-51-5151437</span>
+                  <!-- <strong>Phone:</strong> <span>+92-51-5151991</span> -->
                 </p>
                 <p><strong>Email:</strong> <span>ficse@fui.edu.pk</span></p>
               </div>
@@ -1135,33 +1141,35 @@ include("conn.php");
                 <li><a href="index.php">Home</a></li>
                 <li><a href="#speakers">Speakers</a></li>
                 <li><a href="#call-for-papers">Call For Papers</a></li>
-                <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </div>
 
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">Our Committees</h4>
               <ul>
+              <li><a href="executive-committee.php">Executive Committee</a></li>
+
                 <li>
                   <a href="organizing-committee.php">Organizing Committee</a>
                 </li>
                 <li>
                   <a href="technical-committee.php">Technical Committee</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="awareness-committee.php">Awareness Committee</a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                   <a href="operation-committee.php">Operation Committee</a>
-                </li>
+                </li> -->
               </ul>
             </div>
             <div class="col-lg-3 col-md-3 footer-links">
               <h4 style="color: white">About Us</h4>
               <ul>
-                <li><a href="patron.php">Patrons</a></li>
-                <li><a href="patron-chief.php">Patrons-In-Chief</a></li>
-                <li><a href="chief-organizer.php">Chief Organizer</a></li>
+         
+                <li><a href="guidelines.php">Submission Guidelines</a></li>
+
+                <li><a href="about.php">Event Details</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
