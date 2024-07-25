@@ -92,11 +92,11 @@ include("conn.php");
                 <li><a href="organizing-committee.php">Organizing Committee</a></li>
                 <li><a href="technical-committee.php">Technical Committee</a></li>
                 <!-- <li><a href="chief-organizer.php">Chief Organizer</a></li> -->
-                <li><a href="reviewer-committee.php">Reviewers Committee</a></li>
+                <!-- <li><a href="reviewer-committee.php">Reviewers Committee</a></li>
                 <li><a href="awareness-committee.php">Awareness/Outreach Committee</a></li>
                 <li><a href="support-service-committee.php">Support Services Committee</a></li>
                 <li><a href="finance-committee.php">Finance Committee</a></li>
-                <li><a href="operation-committee.php">Operations Committee</a></li>
+                <li><a href="operation-committee.php">Operations Committee</a></li> -->
               </ul>
             
             </li>

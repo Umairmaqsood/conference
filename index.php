@@ -98,7 +98,7 @@ include("conn.php");
                   <a href="technical-committee.php">Technical Committee</a>
                 </li>
                 <!-- <li><a href="chief-organizer.php">Chief Organizer</a></li> -->
-                <li>
+                <!-- <li>
                   <a href="reviewer-committee.php">Reviewers Committee</a>
                 </li>
                 <li>
@@ -114,7 +114,7 @@ include("conn.php");
                 <li><a href="finance-committee.php">Finance Committee</a></li>
                 <li>
                   <a href="operation-committee.php">Operations Committee</a>
-                </li>
+                </li> -->
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
@@ -206,10 +206,13 @@ include("conn.php");
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Keynote Speakers<br /></h2>
+          <h5>TBA</h5>
+          
+
         </div>
         <!-- End Section Title -->
 
-        <div class="container">
+        <!-- <div class="container">
           <div class="row gy-4">
             <div
               class="col-xl-3 col-lg-4 col-md-6"
@@ -227,7 +230,7 @@ include("conn.php");
                     <h4>
                       <a href="speaker-details.html">XYZ</a>
                     </h4>
-                    <!-- <span>Dean, FUSST</span> -->
+                     <span>Dean, FUSST</span> 
                   </div>
                   <div class="social">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -238,7 +241,7 @@ include("conn.php");
                 </div>
               </div>
             </div>
-            <!-- End Team Member -->
+           
 
             <div
               class="col-xl-3 col-lg-4 col-md-6"
@@ -256,7 +259,7 @@ include("conn.php");
                     <h4>
                       <a href="speaker-details.html">XYZ</a>
                     </h4>
-                    <!-- <span>HOD,SE FUSST</span> -->
+                    <span>HOD,SE FUSST</span> 
                   </div>
                   <div class="social">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -267,7 +270,7 @@ include("conn.php");
                 </div>
               </div>
             </div>
-            <!-- End Team Member -->
+            
 
             <div
               class="col-xl-3 col-lg-4 col-md-6"
@@ -283,7 +286,7 @@ include("conn.php");
                 <div class="member-info">
                   <div class="member-info-content">
                     <h4><a href="speaker-details.html">XYZ</a></h4>
-                    <!-- <span>AP, FUSST</span> -->
+                 <span>AP, FUSST</span>
                   </div>
                   <div class="social">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -294,7 +297,7 @@ include("conn.php");
                 </div>
               </div>
             </div>
-            <!-- End Team Member -->
+           End Team Member 
 
             <div
               class="col-xl-3 col-lg-4 col-md-6"
@@ -312,7 +315,7 @@ include("conn.php");
                     <h4>
                       <a href="speaker-details.html">XYZ</a>
                     </h4>
-                    <!-- <span>AP, FUSST</span> -->
+                    <span>AP, FUSST</span> 
                   </div>
                   <div class="social">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -323,11 +326,11 @@ include("conn.php");
                 </div>
               </div>
             </div>
-            <!-- End Team Member -->
+         End Team Member 
           </div>
-        </div>
+        </div> 
       </section>
-      <!-- /Speakers Section -->
+      < /Speakers Section -->
 
       <!-- Calls for papers -->
       <section
@@ -338,7 +341,7 @@ include("conn.php");
 
         <div class="container section-title" data-aos="fade-up">
           <h2>Call for Papers</h2>
-          <p>Submit your Research Papers/Proposals.</p>
+          <p style="color:black;">Submit your Research Papers/Proposals.</p>
         </div>
 
         <div class="container">
@@ -422,7 +425,7 @@ include("conn.php");
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Event Schedule<br /></h2>
-          <p>September 29-30, 2024</p>
+          <p style="color:black;">September 29-30, 2024</p>
         </div>
         <!-- End Section Title -->
 
@@ -466,127 +469,127 @@ include("conn.php");
               class="col-lg-9 tab-pane fade show active"
               id="day-1"
             >
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>09:30 AM</time></div>
-                <div class="col-md-10">
-                  <h4>Registration</h4>
-                  <p>
-                    Fugit voluptas iusto maiores temporibus autem numquam
-                    magnam.
-                  </p>
-                </div>
-              </div>
+            <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9.00 to 10.20 (Session 1) 4 papers</p>
+    </div>
+</div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>10:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-1-2.jpg"
-                      alt="Brenden Legros"
-                    />
-                  </div>
-                  <h4>Keynote <span>Brenden Legros</span></h4>
-                  <p>Facere provident incidunt quos voluptas.</p>
-                </div>
-              </div>
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.20 to 10.50 - Tea break</p>
+    </div>
+</div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>11:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-2-2.jpg"
-                      alt="Hubert Hirthe"
-                    />
-                  </div>
-                  <h4>
-                    Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span>
-                  </h4>
-                  <p>
-                    Maiores dignissimos neque qui cum accusantium ut sit sint
-                    inventore.
-                  </p>
-                </div>
-              </div>
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.50 to 11.20 - keynote 1</p>
+    </div>
+</div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>12:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-3-2.jpg"
-                      alt="Cole Emmerich"
-                    />
-                  </div>
-                  <h4>
-                    Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span>
-                  </h4>
-                  <p>
-                    Veniam accusantium laborum nihil eos eaque accusantium
-                    aspernatur.
-                  </p>
-                </div>
-              </div>
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11.20 to 12.20 - session 2</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12.20 - 13.00 - keynote 2</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13.00 to 14.00 - Lunch break</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14.00 to 15.00 - Session 3</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.00 to 15.30 - keynote 3</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.30 to 16.30 - workshop</p>
+    </div>
+</div>
+
             </div>
             <!-- End Schdule Day 1 -->
 
             <!-- Schdule Day 2 -->
             <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-2">
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>10:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-1-2.jpg"
-                      alt="Brenden Legros"
-                    />
-                  </div>
-                  <h4>
-                    Libero corrupti explicabo itaque.
-                    <span>Brenden Legros</span>
-                  </h4>
-                  <p>Facere provident incidunt quos voluptas.</p>
-                </div>
-              </div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>11:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-2-2.jpg"
-                      alt="Hubert Hirthe"
-                    />
-                  </div>
-                  <h4>
-                    Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span>
-                  </h4>
-                  <p>
-                    Maiores dignissimos neque qui cum accusantium ut sit sint
-                    inventore.
-                  </p>
-                </div>
-              </div>
 
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>12:00 AM</time></div>
-                <div class="col-md-10">
-                  <div class="speaker">
-                    <img
-                      src="assets/img/speakers/speaker-3-2.jpg"
-                      alt="Cole Emmerich"
-                    />
-                  </div>
-                  <h4>
-                    Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span>
-                  </h4>
-                  <p>
-                    Veniam accusantium laborum nihil eos eaque accusantium
-                    aspernatur.
-                  </p>
-                </div>
-              </div>
+            <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9.00 to 10.20 (Session 1) 4 papers</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.20 to 10.50 - Tea break</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10.50 to 11.20 - keynote 1</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11.20 to 12.20 - session 2</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12.20 - 13.00 - keynote 2</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13.00 to 14.00 - Lunch break</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14.00 to 15.00 - Session 3</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.00 to 15.30 - keynote 3</p>
+    </div>
+</div>
+
+<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
+    <div class="col-md-12">
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15.30 to 16.30 - workshop</p>
+    </div>
+</div>
+             
+
+
+
+
+
+              
             </div>
           </div>
         </div>
@@ -598,7 +601,7 @@ include("conn.php");
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Calendar</h2>
-          <p>Stay updated with our upcoming events and important dates.</p>
+          <p style="color:black;">Stay updated with our upcoming events and important dates.</p>
         </div>
 
         <div class="container">
@@ -655,7 +658,7 @@ include("conn.php");
 
         <div class="container section-title" data-aos="fade-up">
           <h2>Fee Schedule</h2>
-          <p>Check out our attractive and affordable registration options.</p>
+          <p style="color:black;">Check out our attractive and affordable registration options.</p>
         </div>
 
         <div class="container">
@@ -703,7 +706,7 @@ include("conn.php");
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Event Venue<br /></h2>
-          <p>
+          <p style="color:black;">
              Foundation University School of Science and
             Technology, New Lalazar, Rawalpindi, Pakistan
           </p>
@@ -736,16 +739,16 @@ include("conn.php");
       <!-- /Venue Section -->
 
       <!-- Gallery Section -->
-      <section id="gallery" class="gallery section">
-        <!-- Section Title -->
+      <!-- <section id="gallery" class="gallery section">
+    
         <div class="container section-title" data-aos="fade-up">
           <h2>Gallery</h2>
-          <p>
+          <p >
             Explore our gallery showcasing memorable moments from our events,
             featuring insightful discussions and presentations.
           </p>
         </div>
-        <!-- End Section Title -->
+      
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper init-swiper">
@@ -872,14 +875,14 @@ include("conn.php");
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Faq Section -->
       <section id="faq" class="faq section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Frequently Asked Questions</h2>
-          <p>Find answers to common questions about our event below.</p>
+          <p style="color:black;">Find answers to common questions about our event below.</p>
         </div>
         <!-- End Section Title -->
 
@@ -890,7 +893,7 @@ include("conn.php");
                 <div class="faq-item faq-active">
                   <h3>What are the dates and location of the event?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p style="color:black;">
                       The event will be held on September 29-30, 2024 at
                       Foundation University School of Science and Technology,
                       Rawalpindi.
@@ -903,7 +906,7 @@ include("conn.php");
                 <div class="faq-item">
                   <h3>How can I register for the event?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p style="color:black;">
                       Registration can be done through our website [link], or
                       you can contact our registration team at [email/phone].
                     </p>
@@ -915,7 +918,7 @@ include("conn.php");
                 <div class="faq-item">
                   <h3>What topics will be covered at the event?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p style="color:black;">
                       The event will cover topics such as [list key topics or
                       themes].
                     </p>
@@ -927,7 +930,7 @@ include("conn.php");
                 <div class="faq-item">
                   <h3>Is there a fee to attend the event?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p style="color:black;">
                       Yes, there is a registration fee of [amount]. Early bird
                       discounts are available until [date].
                     </p>
@@ -939,7 +942,7 @@ include("conn.php");
                 <div class="faq-item">
                   <h3>Are there sponsorship opportunities available?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p style="color:black;">
                       Yes, we offer various sponsorship packages. Please contact
                       our sponsorship team at [email/phone] for more
                       information.
@@ -952,7 +955,7 @@ include("conn.php");
                 <div class="faq-item">
                   <h3>Will there be networking opportunities at the event?</h3>
                   <div class="faq-content">
-                    <p>
+                    <p style="color:black;">
                       Yes, the event includes dedicated networking sessions to
                       connect with industry professionals and peers.
                     </p>
@@ -973,7 +976,7 @@ include("conn.php");
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
-          <p>
+          <p style="color:black;">
             Get in touch for inquiries, collaborations, or event details—we're
             here to assist you.
           </p>
@@ -990,7 +993,7 @@ include("conn.php");
               >
                 <i class="bi bi-geo-alt"></i>
                 <h3>Address</h3>
-                <p>
+                <p style="color:black;">
                   Foundation University School of Science and Technology,
                   Rawalpindi
                 </p>
@@ -1006,7 +1009,7 @@ include("conn.php");
               >
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
-                <p>+92-51-5151437</p>
+                <p style="color:black;">+92-51-5151437</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -1019,7 +1022,7 @@ include("conn.php");
               >
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
-                <p>ficse@fui.edu.pk</p>
+                <p style="color:black;">ficse@fui.edu.pk</p>
               </div>
             </div>
             <!-- End Info Item -->
@@ -1101,7 +1104,7 @@ include("conn.php");
                 </div>
               </form>
             </div>
-            <!-- End Contact Form -->
+          
           </div>
         </div>
       </section>

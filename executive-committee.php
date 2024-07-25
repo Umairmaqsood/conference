@@ -15,7 +15,7 @@ include("header.php");
             <nav class="breadcrumbs">
                 <ol>
                     <li><a href="index.php">Home</a></li>
-                    <li class="current">Operations Committee</li>
+                    <li class="current">Executive Committee</li>
                 </ol>
             </nav>
         </div>
@@ -25,7 +25,7 @@ include("header.php");
     <!-- Events Section -->
     <section id="events" class="events section">
     <div class="container section-title" data-aos="fade-up">
-          <h2>Patron In Cheif<br /></h2>
+          <h2>Patron<br /></h2>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">   
             <div class="row gy-4">
@@ -67,7 +67,7 @@ include("header.php");
 
     <section id="events" class="events section">
     <div class="container section-title" data-aos="fade-up">
-          <h2>Patron<br /></h2>
+          <h2>Conference Chair<br /></h2>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row justify-content-center gy-4">
@@ -120,7 +120,7 @@ include("header.php");
 
     <section id="events" class="events section">
     <div class="container section-title" data-aos="fade-up">
-          <h2>Cheif Organizer<br /></h2>
+          <h2>Conference Secretary<br /></h2>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row justify-content-center gy-4">

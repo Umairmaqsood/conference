@@ -27,22 +27,6 @@ include("header.php");
             <div class="row gy-4">
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/shaheen.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Prof Dr. Muhammad Shaheen
-                                </h4>
-                                <h5>
-                                   DEAN FEIT, FUSST
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
                         <img src="assets/img/speakers/sajid.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
@@ -50,19 +34,13 @@ include("header.php");
                                 Dr. Sajid Ali Khan
                                 </h4>
                                 <h5>
-                               HOD SE, FUSST
+                                HOD SE, FUSST
                                 </h5>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
-            <div class="row gy-4">
+                
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/rehman.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
@@ -78,8 +56,16 @@ include("header.php");
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">   
+            <div class="row gy-4">
+
+
+            <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/ateeq.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
@@ -94,23 +80,119 @@ include("header.php");
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
-            <div class="row gy-4">
+
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/shariq.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
+                                <h4>
+                                Dr. Shariq Hussain  
+                                </h4>
+                                <h5>
+                                Associate Professor, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+              
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="events" class="events section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">   
+            <div class="row gy-4">
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/rabiya.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>
+                                Ms. Rabiya Ghafoor
+                                </h4>
+                                <h5>
+                                Lecturer, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/nousheen.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>
+                                Ms. Noushin Mazhar
+                                </h4>
+                                <h5>
+                                Lecturer, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">   
+            <div class="row gy-4">
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/durreshahwar.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>
+                                Ms. Durr-e-Shahwar 
+                                </h4>
+                                <h5>
+                                Lecturer, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/aania.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>
+                               Ms. Aania Majeed 
+                                </h4>
+                                <h5>
+                                Lecturer, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="events" class="events section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">   
+            <div class="row gy-4">
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/mohsan.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
                                 <h4>                        
-Dr. Shariq Hussain  
+                             Mr. Mohsan Tanveer 
                                 </h4>
                                 <h5>
-                                Associate Professor, FUSST
+                                Lecturer, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -119,14 +201,14 @@ Dr. Shariq Hussain
                 
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/arif.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <img src="assets/img/speakers/umairMaqsood.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>
-                                Dr. Arif Jamal
+                                Mr. Umair Maqsood
                                 </h4>
                                 <h5>
-                                Associate Professor, FUSST
+                                Lecturer, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -134,121 +216,9 @@ Dr. Shariq Hussain
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
-            <div class="row gy-4">
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/haneef.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Dr. Muhammad Haneef  
-                                </h4>
-                                <h5>
-                                Associate Professor, FUSST
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/aqeel.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Dr. Muhammad Aqeel Iqbal 
-                                </h4>
-                                <h5>
-                                Assistant Professor, FUSST
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
-            <div class="row gy-4">
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/imran.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Dr. Imran Daud  
-                                </h4>
-                                <h5>
-                                Assistant Professor, FUSST
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/maryam.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Dr. Maryam Kausar  
-                                </h4>
-                                <h5>
-                                Assistant Professor, FUSST
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
-            <div class="row gy-4">
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/najam.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Dr. Najmul Hassan
-                                </h4>
-                                <h5>
-                                Assistant Professor, FUSST
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-                    <div class="member">
-                        <img src="assets/img/speakers/salma.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
-                        <div class="member-info">
-                            <div class="member-info-content">
-                                <h4>
-                                Dr. Salma Khan
-                                </h4>
-                                <h5>
-                                Assistant Professor, FUSST
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 </main>
 
 <?php
