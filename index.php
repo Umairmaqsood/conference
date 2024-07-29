@@ -175,7 +175,7 @@ include("conn.php");
         <div class="about-info mt-auto position-relative">
           <div class="container position-relative" data-aos="fade-up">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-5">
                 <h2>About The Event</h2>
                 <p>
                   Foundation University Islamabad is organizing its first
@@ -188,24 +188,24 @@ include("conn.php");
                   >
                 </p>
               </div>
-              <div class="col-lg-3">
+              <div class="col-lg-4">
               <h3>Time Left</h3>
-              <div id="countdown" style="font-size: 1.9em; ">
-        <div style="display: inline-block; width: 50px;">
+              <div id="countdown" style="font-size: 2em; ">
+        <div style="display: inline-block; width: 70px;">
             <span id="days"></span>
-            <div class="label" style="font-size: 0.5em; color: #666;">Days</div>
+            <div class="label" style="font-size: 0.5em; color: #D5D3D2 ;">Days</div>
         </div>
-        <div style="display: inline-block; width: 50px;">
+        <div style="display: inline-block; width: 70px;">
             <span id="hours"></span>
-            <div class="label" style="font-size: 0.5em; color: #666;">Hours</div>
+            <div class="label" style="font-size: 0.5em; color: #D5D3D2 ;">Hours</div>
         </div>
-        <div style="display: inline-block; width: 50px;">
+        <div style="display: inline-block; width: 70px;">
             <span id="minutes"></span>
-            <div class="label" style="font-size: 0.5em; color: #666;">Minutes</div>
+            <div class="label" style="font-size: 0.5em; color:#D5D3D2 ;">Minutes</div>
         </div>
-        <div style="display: inline-block; width: 60px;">
+        <div style="display: inline-block; width: 70px;">
             <span id="seconds"></span>
-            <div class="label" style="font-size: 0.5em; color: #666;">Seconds</div>
+            <div class="label" style="font-size: 0.5em; color: #D5D3D2 ;">Seconds</div>
         </div>
     </div>
 
