@@ -189,10 +189,69 @@ include("conn.php");
                 </p>
               </div>
               <div class="col-lg-3">
-                <h3>Where</h3>
-                <p>FUSST, Rawalpindi Pakistan</p>
+              <h3>Time Left</h3>
+              <div id="countdown" style="font-size: 1.9em; ">
+        <div style="display: inline-block; width: 50px;">
+            <span id="days"></span>
+            <div class="label" style="font-size: 0.5em; color: #666;">Days</div>
+        </div>
+        <div style="display: inline-block; width: 50px;">
+            <span id="hours"></span>
+            <div class="label" style="font-size: 0.5em; color: #666;">Hours</div>
+        </div>
+        <div style="display: inline-block; width: 50px;">
+            <span id="minutes"></span>
+            <div class="label" style="font-size: 0.5em; color: #666;">Minutes</div>
+        </div>
+        <div style="display: inline-block; width: 60px;">
+            <span id="seconds"></span>
+            <div class="label" style="font-size: 0.5em; color: #666;">Seconds</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Set the date we're counting down to
+            var countDownDate = new Date("September 29, 2024 00:00:00").getTime();
+
+            // Update the count down every 1 second
+            var countdownFunction = setInterval(function() {
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes, and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Pad numbers with leading zeros
+                days = days < 10 ? "0" + days : days;
+                hours = hours < 10 ? "0" + hours : hours;
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                // Display the result
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+
+                // If the count down is over, write some text
+                if (distance < 0) {
+                    clearInterval(countdownFunction);
+                    document.getElementById("countdown").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        });
+    </script>
               </div>
               <div class="col-lg-3">
+              <h3>Where</h3>
+              <p>FUSST, Rawalpindi Pakistan</p>
                 <h3>When</h3>
                 <p>Saturday-Sunday<br />September 29-30, 2024</p>
               </div>
@@ -343,6 +402,7 @@ include("conn.php");
         <div class="container section-title" data-aos="fade-up">
           <h2>Call for Papers</h2>
           <p style="color:black;">Submit your Research Papers/Proposals.</p>
+          <p style="color:black;"> Extended Version of the accepted papers will be published in <b>"Y"</b> Category Journal <b>Foundation University Journal of Engineering and Applied Sciences</b> (https://fujeas.fui.edu.pk). </p>
         </div>
 
         <div class="container">

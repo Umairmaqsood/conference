@@ -32,6 +32,8 @@ include("header.php");
         <div class="container section-title" data-aos="fade-up">
           <h2>Call for Papers</h2>
           <p>Submit your Research Papers/Proposals.</p>
+          <p>Extended Version of the accepted papers will be published in <b>"Y"</b> Category Journal <b>Foundation University Journal of Engineering and Applied Sciences</b> (https://fujeas.fui.edu.pk). </p>
+
         </div>
 
         <div class="container">
