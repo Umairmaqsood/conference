@@ -32,7 +32,7 @@ include ("header.php");
           <div class="row">
             <div class="col-md-6">
               <img
-                src="assets/img/speaker.jpg"
+                src="assets/img/speakers/furcbuilding.jpg"
                 alt="Speaker"
                 class="img-fluid"
               />
@@ -40,19 +40,19 @@ include ("header.php");
 
             <div class="col-md-6">
               <div class="details">
-                <h2>First International Conference on Computer Science and Engineering, Islamabad, Pakistan</h2>
-                <h6>September 29 – 30, 2024 at Foundation University Islamabad, School of Science and Technology (FUSST)
+                <h2>FUSST International Conference on Computer Science and Engineering, Islamabad, Pakistan</h2>
+                <h6>September 26–27, 2024 at Foundation University Islamabad, School of Science and Technology (FUSST).
 </h6>
-                <div class="social">
-                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                <!-- <div class="social">
+                 <a href=""><i class="bi bi-twitter"></i></a> 
                   <a href="https://www.facebook.com/fuislamabad/"><i class="bi bi-facebook"></i></a>
                   <a href="https://www.instagram.com/foundationuniversityislamabad/?hl=en"><i class="bi bi-instagram"></i></a>
                   <a href="https://www.linkedin.com/school/fuislamabad/mycompany/"><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> -->
                 <p  style="color:black;">
                 Foundation University Islamabad is organizing its first international conference
                  with the name of “Fusst International Conference on Computer Science and Engineering 
-                 (FICSE)” from September 29 – 30, 2024 at Foundation University Islamabad, School of 
+                 (FICSE)” from September 26–27, 2024 at Foundation University Islamabad, School of 
                  Science and Technology. The conference will bring together Government, industry,
                   Academia, and civil society to explore the role of state of the art technologies 
                   in the broad field of Information Technology, electrical, instrumentation and 

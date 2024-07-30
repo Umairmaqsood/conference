@@ -180,7 +180,7 @@ include("header.php");
             </div>
         </div>
     </section>
-    <!-- <section id="events" class="events section">
+    <section id="events" class="events section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">   
             <div class="row gy-4">
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
@@ -216,7 +216,7 @@ include("header.php");
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     
 </main>

@@ -23,8 +23,8 @@
               <h4 style="color: white">Useful Links</h4>
               <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#speakers">Speakers</a></li>
-                <li><a href="#call-for-papers">Call For Papers</a></li>
+                <li><a href="speakers.php">Speakers</a></li>
+                <li><a href="call-for-paper.php">Call For Papers</a></li>
               </ul>
             </div>
 

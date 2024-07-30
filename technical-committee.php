@@ -205,11 +205,11 @@ include("header.php");
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/avatar.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <img src="assets/img/speakers/noman.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>
-                                Dr. Nouman
+                                Dr. Muhammad Nouman Noor
                                 </h4>
                                 <h5>
                                 Assistant Professor, FUSST

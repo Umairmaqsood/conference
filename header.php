@@ -65,7 +65,7 @@ include("conn.php");
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
               <ul>
-                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="speakers.php">Speakers</a></li>
                 <li><a href="call-for-paper.php">Call for Papers</a></li>
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
@@ -105,7 +105,7 @@ include("conn.php");
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/">Submit Paper</a>
+        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/conferences/?conf=ficse2024">Submit Paper</a>
       </div>
     </header>
 </body>

@@ -122,7 +122,7 @@ include("conn.php");
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/">Submit Paper</a>
+        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/conferences/?conf=ficse2024">Submit Paper</a>
 
       </div>
     </header>
@@ -154,7 +154,7 @@ include("conn.php");
             data-aos-delay="200"
             style="text-align: center; color: white"
           >
-            September 29-30, 2024
+            September 26-27, 2024
           </p>
           <p
             data-aos="fade-up"
@@ -181,7 +181,7 @@ include("conn.php");
                   Foundation University Islamabad is organizing its first
                   international conference with the name of FUSST International
                   Conference on Computer Science and Engineering (FICSE)” from
-                  September 29 – 30, 2024 at Foundation University Islamabad,
+                  September 26–27, 2024 at Foundation University Islamabad,
                   School of Science and Technology. The conference will
                   <a href="about.php" style="text-decoration: none"
                     >read more</a
@@ -212,7 +212,7 @@ include("conn.php");
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Set the date we're counting down to
-            var countDownDate = new Date("September 29, 2024 00:00:00").getTime();
+            var countDownDate = new Date("September 26, 2024 00:00:00").getTime();
 
             // Update the count down every 1 second
             var countdownFunction = setInterval(function() {
@@ -253,7 +253,7 @@ include("conn.php");
               <h3>Where</h3>
               <p>FUSST, Rawalpindi Pakistan</p>
                 <h3>When</h3>
-                <p>Saturday-Sunday<br />September 29-30, 2024</p>
+                <p>Saturday-Sunday<br />September 26-27, 2024</p>
               </div>
             </div>
           </div>
@@ -261,137 +261,77 @@ include("conn.php");
       </section>
       <!-- /Hero Section -->
 
-      <!-- Speakers Section -->
-      <section id="speakers" class="speakers section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Keynote Speakers<br /></h2>
-          <h5>TBA</h5>
+
+
+    
+      <section id="speakers" class="events section">
+  
+   <div class="container" data-aos="fade-up" data-aos-delay="100">   
+   <div class="container section-title" data-aos="fade-up">
+     <h2>Keynote Speakers<br /></h2>
+   </div>
+       <div class="row gy-4">
+         
+       <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+               <div class="member">
+          
+                   <img src="assets/img/speakers/shoaib.jpg" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                   <div class="member-info">
+                       <div class="member-info-content">
+                           <h4>
+                           Dr. Shoab A. Khan
+                           </h4>
+                           <h5>
+                           Chairman Engineering Education Trust, Chancellor
+                           </h5>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+               <div class="member">
+           
+                   
+                   <img src="assets/img/speakers/ahsan.jfif" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                   <div class="member-info">
+                       <div class="member-info-content">
+                           <h4>
+                           Prof Dr. Ali Ahsan
+                           </h4>
+                           <h5>
+                           Torrens University Australia
+                           </h5>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
           
 
-        </div>
-        <!-- End Section Title -->
 
-        <!-- <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/speakers/avatar.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>
-                      <a href="speaker-details.html">XYZ</a>
-                    </h4>
-                     <span>Dean, FUSST</span> 
-                  </div>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/speakers/avatar.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>
-                      <a href="speaker-details.html">XYZ</a>
-                    </h4>
-                    <span>HOD,SE FUSST</span> 
-                  </div>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/speakers/avatar.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4><a href="speaker-details.html">XYZ</a></h4>
-                 <span>AP, FUSST</span>
-                  </div>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-           End Team Member 
+           <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+               <div class="member">         
+                   <img src="assets/img/speakers/shaheen.png" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                   <div class="member-info">
+                       <div class="member-info-content">
+                           <h4>
+                           Prof Dr. Muhammad Shaheen
+                           </h4>
+                           <h5>
+                           DEAN FEIT, FUSST
+                           </h5>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
 
-            <div
-              class="col-xl-3 col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="member">
-                <img
-                  src="assets/img/speakers/avatar.png"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>
-                      <a href="speaker-details.html">XYZ</a>
-                    </h4>
-                    <span>AP, FUSST</span> 
-                  </div>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-         End Team Member 
-          </div>
-        </div> 
-      </section>
-      < /Speakers Section -->
-
+     
+     
       <!-- Calls for papers -->
       <section
         id="call-for-papers"
@@ -402,8 +342,8 @@ include("conn.php");
         <div class="container section-title" data-aos="fade-up">
           <h2>Call for Papers</h2>
           <p style="color:black;">Submit your Research Papers/Proposals.</p>
-          <p style="color:black;"> Extended Version of the accepted papers will be published in <b>"Y"</b> Category Journal <b>Foundation University Journal of Engineering and Applied Sciences</b> (https://fujeas.fui.edu.pk). </p>
-        </div>
+          <p style="color:black;"> Extended Version of the accepted papers will be published in <b>"Y"</b> Category Journal <b>Foundation University Journal of Engineering and Applied Sciences</b> (<a  style="text-docration:none; color:black; font-weight:bold;"  href="https://fujeas.fui.edu.pk">https://fujeas.fui.edu.pk</a>). </p>
+          </div>
 
         <div class="container">
           <div
@@ -486,7 +426,7 @@ include("conn.php");
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Event Schedule<br /></h2>
-          <p style="color:black;">September 29-30, 2024</p>
+          <p style="color:black;">September 26-27, 2024</p>
         </div>
         <!-- End Section Title -->
 
@@ -532,7 +472,7 @@ include("conn.php");
             >
             <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 papers</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 Papers</p>
     </div>
 </div>
 
@@ -544,19 +484,19 @@ include("conn.php");
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - keynote 1</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - Keynote 1</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - session 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - Session 2</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - keynote 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - Keynote 2</p>
     </div>
 </div>
 
@@ -574,13 +514,13 @@ include("conn.php");
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - keynote 3</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - Keynote 3</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - workshop</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - Workshop</p>
     </div>
 </div>
 
@@ -593,7 +533,7 @@ include("conn.php");
 
             <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 papers</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 Papers</p>
     </div>
 </div>
 
@@ -605,19 +545,19 @@ include("conn.php");
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - keynote 1</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - Keynote 1</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - session 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - Session 2</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - keynote 2</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - Keynote 2</p>
     </div>
 </div>
 
@@ -635,13 +575,13 @@ include("conn.php");
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - keynote 3</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - Keynote 3</p>
     </div>
 </div>
 
 <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
     <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - workshop</p>
+        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - Workshop</p>
     </div>
 </div>
              
@@ -679,7 +619,7 @@ include("conn.php");
                 <li>
                   <i class="bi bi-calendar-event"></i>&nbsp;
                   <strong
-                    >Last Date for Submission of Proposals:&nbsp;July 24,
+                    >Last Date for Submission of Proposals:&nbsp;August 10,
                     2024</strong
                   >
                 </li>
@@ -703,7 +643,7 @@ include("conn.php");
                 </li>
                 <li>
                   <i class="bi bi-calendar-event"></i>&nbsp;
-                  <strong>Conference Dates:&nbsp;September 29-30, 2024</strong>
+                  <strong>Conference Dates:&nbsp;September 26-27, 2024</strong>
                 </li>
               </ul>
             </div>
@@ -768,8 +708,8 @@ include("conn.php");
         <div class="container section-title" data-aos="fade-up">
           <h2>Event Venue<br /></h2>
           <p style="color:black;">
-             Foundation University School of Science and
-            Technology, New Lalazar, Rawalpindi, Pakistan
+             Faculty of Engineering and  Applied Sciences, Foundation University School of Science and
+            Technology New Lalazar Rawalpindi, Pakistan.
           </p>
         </div>
         <!-- End Section Title -->
@@ -955,9 +895,9 @@ include("conn.php");
                   <h3>What are the dates and location of the event?</h3>
                   <div class="faq-content">
                     <p style="color:black;">
-                      The event will be held on September 29-30, 2024 at
-                      Foundation University School of Science and Technology,
-                      Rawalpindi.
+                      The event will be held on September 26-27, 2024 at
+                      Faculty of Engineering and  Applied Sciences, Foundation University School of Science and
+            Technology New Lalazar Rawalpindi, Pakistan.
                     </p>
                   </div>
                   <i class="faq-toggle bi bi-chevron-right"></i>
@@ -1055,8 +995,8 @@ include("conn.php");
                 <i class="bi bi-geo-alt"></i>
                 <h3>Address</h3>
                 <p style="color:black;">
-                  Foundation University School of Science and Technology,
-                  Rawalpindi
+                  Foundation University School of Science and Technology
+                  Rawalpindi, Pakistan.
                 </p>
               </div>
             </div>
@@ -1186,7 +1126,7 @@ include("conn.php");
               </a>
               <div class="footer-contact pt-1">
                 <p>FUSST, Rawalpindi</p>
-                <p>Pakistan,46000</p>
+                <p>Pakistan, 46000</p>
                 <p class="mt-2">
                   <strong>Phone:</strong> <span>+92-51-5151437</span>
                   <!-- <strong>Phone:</strong> <span>+92-51-5151991</span> -->
