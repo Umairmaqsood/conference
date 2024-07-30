@@ -22,9 +22,31 @@ include("header.php");
     </div>
     <!-- End Page Title -->
 
+   
+
     <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
+    <div class="container" data-aos="fade-up" data-aos-delay="100">   
             <div class="row gy-4">
+
+
+            <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/shaheen.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>
+                                Prof Dr. Muhammad Shaheen
+                                </h4>
+                                <h5>
+                                DEAN FEIT, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             
+                
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/sajid.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
@@ -40,8 +62,20 @@ include("header.php");
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+      <section id="events" class="events section">
+           <div class="container" data-aos="fade-up" data-aos-delay="100">   
+            <div class="row gy-4">
+
+
+            <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/rehman.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
@@ -56,16 +90,8 @@ include("header.php");
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="events" class="events section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">   
-            <div class="row gy-4">
-
-
-            <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/ateeq.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
@@ -80,15 +106,23 @@ include("header.php");
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
 
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+    <section id="events" class="events section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">   
+            <div class="row gy-4">
+
+
+            <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/shariq.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>
-                                Dr. Shariq Hussain  
+                                Dr. Shariq Hussain
                                 </h4>
                                 <h5>
                                 Associate Professor, FUSST
@@ -97,13 +131,29 @@ include("header.php");
                         </div>
                     </div>
                 </div>
+
+             
                 
-              
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/ranakhattak.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>
+                                Ms. Rana Khattak
+                                </h4>
+                                <h5>
+                                Lecturer, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
+ 
 
     <section id="events" class="events section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">   

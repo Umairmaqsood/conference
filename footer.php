@@ -54,7 +54,7 @@
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
 
                 <li><a href="about.php">Event Details</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
               </ul>
             </div>
           </div>

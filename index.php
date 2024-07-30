@@ -306,11 +306,7 @@ include("conn.php");
                </div>
            </div>
            
-          
-
-
-
-
+        
            <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                <div class="member">         
                    <img src="assets/img/speakers/shaheen.png" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
@@ -697,39 +693,39 @@ include("conn.php");
 
       <!-- Venue Section -->
       <section id="venue" class="venue section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Event Venue<br /></h2>
-          <p style="color:black;">
-             Faculty of Engineering and  Applied Sciences, Foundation University School of Science and
-            Technology New Lalazar Rawalpindi, Pakistan.
-          </p>
-        </div>
-        <!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Event Venue<br /></h2>
+    <p style="color:black;">
+      Faculty of Engineering and Applied Sciences, Foundation University School of Science and
+      Technology New Lalazar Rawalpindi, Pakistan.
+    </p>
+  </div>
+  <!-- End Section Title -->
 
-        <div class="container-fluid" data-aos="fade-up">
-          <div class="row g-0">
-            <div class="col-lg-6 venue-map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.086970124181!2d73.07153891557309!3d33.56111938054432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9324c7c53e6b%3A0xc63a7b443de04c59!2sNew%20Lalazar%2C%20Rawalpindi%2C%20Punjab!5e0!3m2!1sen!2spk!4v1625859166180!5m2!1sen!2s"
-                width="600"
-                height="450"
-                frameborder="0"
-                style="border: 0"
-                allowfullscreen=""
-              ></iframe>
-            </div>
+  <div class="container-fluid" data-aos="fade-up">
+    <div class="row g-0">
+      <div class="col-lg-6 venue-map" style="padding-right: 15px;">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.086970124181!2d73.07153891557309!3d33.56111938054432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9324c7c53e6b%3A0xc63a7b443de04c59!2sNew%20Lalazar%2C%20Rawalpindi%2C%20Punjab!5e0!3m2!1sen!2spk!4v1625859166180!5m2!1sen!2s"
+          width="600"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
 
-            <div class="col-lg-6 venue-info">
-              <div class="row justify-content-center">
-                <div class="col-11 col-lg-8 position-relative">
-                  <!-- <h4 style="color:white;">Seminar Hall 4th Floor, FUSST, Rawalpindi Pakistan</h4> -->
-                </div>
-              </div>
-            </div>
+      <div class="col-lg-6 venue-info" style="padding-left: 15px;">
+        <div class="row justify-content-center">
+          <div class="col-11 col-lg-8 position-relative">
+            <!-- <h4 style="color:white;">Seminar Hall 4th Floor, FUSST, Rawalpindi Pakistan</h4> -->
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
       <!-- /Venue Section -->
 
       <!-- Gallery Section -->

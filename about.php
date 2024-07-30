@@ -51,7 +51,7 @@ include ("header.php");
                 </div> -->
                 <p  style="color:black;">
                 Foundation University Islamabad is organizing its first international conference
-                 with the name of “Fusst International Conference on Computer Science and Engineering 
+                 with the name of “FUSST International Conference on Computer Science and Engineering 
                  (FICSE)” from September 26–27, 2024 at Foundation University Islamabad, School of 
                  Science and Technology. The conference will bring together Government, industry,
                   Academia, and civil society to explore the role of state of the art technologies 
@@ -67,9 +67,6 @@ include ("header.php");
         </div>
       </section>
       <!-- /Events Section -->
-
-
-
 
       <section id="events" class="events section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -110,40 +107,8 @@ include ("header.php");
         
       </section>
       <!-- /Events Section -->
-
-
-
-
-
-
-
-
-
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
+  
 <?php
 
 
