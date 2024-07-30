@@ -91,7 +91,7 @@ include ("header.php");
                 All the accepted and presented research papers/ workshops/ one-pager of keynote talks will be published in the conference proceedings. All papers will be peer-reviewed and, if accepted, extended version will published in the Foundation University Journal of Engineering and Applied Sciences (“Y-Category” HEC recognized journal).                </p>
 
                 <p  style="color:black;">
-                Every attendee of the conference will be awarded a certificate of participation, a conference kit and a FICSE bag in recognition of his participation in the conference. Best paper/ product award will be given to the presenters scored the highest by the judges of the conference. On every day of the conference, a guest of honor will be invited to distribute the certificates and awards. The MD Fauji Foundation will be the Chief Guest of the conference and will join the opening of the conference on 30th September 2024.                </p>
+                Every attendee of the conference will be awarded a certificate of participation, a conference kit and a FICSE bag in recognition of his participation in the conference. Best paper/ product award will be given to the presenters scored the highest by the judges of the conference. On every day of the conference, a guest of honor will be invited to distribute the certificates and awards. The MD Fauji Foundation will be the Chief Guest of the conference and will join the opening of the conference on 27th September 2024.                </p>
               </div>
             </div>
             <!-- <div class="col-md-6">
