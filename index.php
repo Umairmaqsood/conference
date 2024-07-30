@@ -583,14 +583,7 @@ include("conn.php");
     <div class="col-md-12">
         <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - Workshop</p>
     </div>
-</div>
-             
-
-
-
-
-
-              
+</div>              
             </div>
           </div>
         </div>
