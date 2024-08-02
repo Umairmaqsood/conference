@@ -174,7 +174,7 @@ include("header.php");
                             </div>
                         </div>
                     </div>
-</div>
+                       </div>
 
 
               
@@ -201,6 +201,7 @@ include("header.php");
                                 </h5>
                             </div>
                         </div>
+                
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
@@ -226,3 +227,4 @@ include("header.php");
 <?php
 include("footer.php");
 ?>
+
