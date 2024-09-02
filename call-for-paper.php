@@ -22,8 +22,8 @@ include("header.php");
     </div>
 
 
-      <!-- Calls for papers -->
-      <section
+    <!-- Calls for papers -->
+    <section
         id="call-for-papers"
         class="buy-tickets section light-background"
       >
@@ -31,10 +31,9 @@ include("header.php");
 
         <div class="container section-title" data-aos="fade-up">
           <h2>Call for Papers</h2>
-          <p>Submit your Research Papers/Proposals.</p>
-          <p>Extended Version of the accepted papers will be published in <b>"Y"</b> Category Journal <b>Foundation University Journal of Engineering and Applied Sciences</b> (https://fujeas.fui.edu.pk). </p>
-
-        </div>
+          <p style="color:black;">Submit your Research Papers/Proposals.</p>
+          <p style="color:black;"> Extended Version of the accepted papers will be published in <b>"Y"</b> Category Journal <b>Foundation University Journal of Engineering and Applied Sciences</b> (<a  style="text-docration:none; color:black; font-weight:bold;"  href="https://fujeas.fui.edu.pk">https://fujeas.fui.edu.pk</a>). </p>
+          </div>
 
         <div class="container">
           <div
@@ -108,6 +107,9 @@ include("header.php");
                 <li>&#8226; Electronic Devices Circuits and Applications</li>
               </ul>
             </div>
+            <div style="text-align:center;">
+    <a style="color: #ffffff;background-color: #f82249; border: 15px solid #f82249;text-decoration: none; transition: 0.3s; border-radius: 20px; font-weight:bold;" href="ficse_flyer.jpeg" target="_blank">VIEW CALL FOR PAPERS</a>
+</div>
           </div>
         </div>
       </section>

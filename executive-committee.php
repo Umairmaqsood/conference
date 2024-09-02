@@ -81,7 +81,7 @@ include("header.php");
      <h2>Conference Chair<br /></h2>
    </div>
                    
-                   <img src="assets/img/speakers/shaheen.png" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                   <img src="assets/img/speakers/shaheen.jpg" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
                    <div class="member-info">
                        <div class="member-info-content">
                            <h4>

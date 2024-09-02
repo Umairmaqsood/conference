@@ -75,7 +75,7 @@
           </div>
 
           <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+          
             <a href="https://www.facebook.com/fuislamabad/"
               ><i class="bi bi-facebook"></i
             ></a>

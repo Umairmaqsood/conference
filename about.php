@@ -66,7 +66,7 @@ include ("header.php");
           </div>
         </div>
       </section>
-      <!-- /Events Section -->
+      <!-- /Events Section -->      
 
       <section id="events" class="events section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -74,25 +74,39 @@ include ("header.php");
             <div class="col-md-12">
               <div class="details">
               <h5>The conference will mainly include the following sessions:</h5>
-                <p style="color:black;">&#8226; Research paper presentation sessions</p>
-                <p style="color:black;">&#8226; Technology presentation sessions</p>
-                <p style="color:black;">&#8226; Discussion sessions</p>
-                <p style="color:black;">&#8226; Paid Stalls/ Booths from the concerned stakeholders</p>
+                <p style="color:black;">&#8226; Research Paper Presentation Sessions</p>
+                <p style="color:black;">&#8226; Technology Presentation Sessions</p>
+                <p style="color:black;">&#8226; Discussion Sessions</p>
+                <!-- <p style="color:black;">&#8226; Paid Stalls/ Booths from the concerned stakeholders</p> -->
 
                 <p style="color:black;">
-                Researchers, technologists and engineers from industry, academia and civil society will be invited to submit their proposals/ research papers in response to the “Call for papers” advertised through press/ social media/ website and letters. All the submissions will be made to FICSE portal on or before August 15th, 2024. The submitted items will be scrutinized by Editors for their suitability in terms of innovation, creativity, presentation and relevance. The applicants will be informed about the acceptance of their research item on or before 1st September 2024 after which the presenter will prepare a 20-30 minute presentation for on-site or virtual seminar. The decision of FISCE Editorial on the scrutiny of the research items will be final.
-                </p>
+                Researchers, technologists and engineers from industry, academia and civil society 
+are invited to submit their proposals/ research papers in response to the “Call for papers” 
+advertised through press/ social media/ website and letters. All the submissions will be made to 
+FICSE portal on or before August 31, 2024. The submitted items will be scrutinized by Editors for
+ their suitability in terms of innovation, creativity, presentation and relevance. 
+ The applicants will be informed about the acceptance of their research item on or before 
+ 6th September 2024 after which the presenter will prepare a 20-30 minute presentation for 
+ on-site or virtual seminar.  The decision of FISCE Editorial on the scrutiny of the research 
+ items will be final.        </p>
 
                 <p  style="color:black;">
-                The conference will also include 6 keynote sessions for which the international/national speakers will be invited. The international speakers will make virtual presentations whereas the national speakers will present in the live session.
-                </p>
+               The Conference will also include 6-7 Keynote Sessions for which the 
+ International/National Speakers will be invited. The International Speakers will make virtual
+  Presentations whereas the National Speakers will present in the live session.All the accepted 
+  and presented research papers/ workshops/ one-pager of Keynote talks will be published in the 
+  Conference Proceedings.                </p>
 
                 <p  style="color:black;">
-                All the accepted and presented research papers/ workshops/ one-pager of keynote talks will be published in the conference proceedings. All papers will be peer-reviewed and, if accepted, extended version will published in the Foundation University Journal of Engineering and Applied Sciences (“Y-Category” HEC recognized journal).                </p>
-
+                All papers will be peer-reviewed and, if accepted, extended version will 
+  published in the Foundation University Journal of Engineering and Applied Sciences
+   (“Y-Category” HEC Recognized Journal).Every Attendee of the Conference will be awarded 
+   a certificate of participation, a Conference Kit and a FICSE bag in recognition of his
+    participation in the Conference.
                 <p  style="color:black;">
-                Every attendee of the conference will be awarded a certificate of participation, a conference kit and a FICSE bag in recognition of his participation in the conference. Best paper/ product award will be given to the presenters scored the highest by the judges of the conference. On every day of the conference, a guest of honor will be invited to distribute the certificates and awards. The MD Fauji Foundation will be the Chief Guest of the conference and will join the opening of the conference on 27th September 2024.                </p>
-              </div>
+                Best paper/ product award will be given to the presenters 
+    scored the highest by the Judges of the Conference. On every day of the Conference, a guest
+     of honor will be invited to distribute the Certificates and Awards.              </div>
             </div>
             <!-- <div class="col-md-6">
               <img

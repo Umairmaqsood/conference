@@ -31,7 +31,7 @@ include("header.php");
 
             <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/shaheen.png" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <img src="assets/img/speakers/shaheen.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>
@@ -125,7 +125,7 @@ include("header.php");
                                 Dr. Shariq Hussain
                                 </h4>
                                 <h5>
-                                Associate Professor, FUSST
+                                Associate Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ include("header.php");
                                 Ms. Rana Khattak
                                 </h4>
                                 <h5>
-                                Lecturer, FUSST
+                                Lecturer DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -167,7 +167,7 @@ include("header.php");
                                 Ms. Rabiya Ghafoor
                                 </h4>
                                 <h5>
-                                Lecturer, FUSST
+                                Lecturer DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ include("header.php");
                                 Ms. Noushin Mazhar
                                 </h4>
                                 <h5>
-                                Lecturer, FUSST
+                                Lecturer DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ include("header.php");
                                 Ms. Durr-e-Shahwar 
                                 </h4>
                                 <h5>
-                                Lecturer, FUSST
+                                Lecturer DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -221,7 +221,7 @@ include("header.php");
                                Ms. Aania Majeed 
                                 </h4>
                                 <h5>
-                                Lecturer, FUSST
+                                Lecturer DSE,  FUSST
                                 </h5>
                             </div>
                         </div>
@@ -242,7 +242,7 @@ include("header.php");
                              Mr. Mohsan Tanveer 
                                 </h4>
                                 <h5>
-                                Lecturer, FUSST
+                                Lecturer DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -258,7 +258,7 @@ include("header.php");
                                 Mr. Umair Maqsood
                                 </h4>
                                 <h5>
-                                Lecturer, FUSST
+                                Lecturer DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -268,6 +268,43 @@ include("header.php");
         </div>
     </section>
 
+    <section id="events" class="events section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">   
+            <div class="row gy-4">
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/bushra.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: inherit;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>                        
+                                 Ms. Bushra Kanwal
+                                </h4>
+                                <h5>
+                                Lecturer DET, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/usman.jpeg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <div class="member-info">
+                            <div class="member-info-content">
+                                <h4>
+                                Engr. Usman Zia
+                                </h4>
+                                <h5>
+                                Lab Engineer, FUSST
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
 </main>
 

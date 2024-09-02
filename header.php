@@ -43,20 +43,19 @@ include("conn.php");
   </head>
 
   <body class="index-page">
-    <header id="header" style="background-color:#000820;" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center"
       >
         <a href="index.php" class="logo d-flex align-items-center me-auto">
-          <img src="assets/img/ficselogo.png" alt="ficse" />
+          <img src="assets/img/ficselogo.png" alt="" />
 
-          <!-- <h1 class="sitename">TheEvent</h1>  -->
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
             <li>
-              <a href="index.php">Home<br /></a>
+              <a href="index.php" class="active">Home<br /></a>
             </li>
 
             <li class="dropdown">
@@ -66,20 +65,16 @@ include("conn.php");
               ></a>
               <ul>
                 <li><a href="speakers.php">Speakers</a></li>
+                <li><a href="panel-discussions.php">Panel Discussion</a></li>
+
                 <li><a href="call-for-paper.php">Call for Papers</a></li>
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </li>
             <li><a href="event-schedule.php">Schedule</a></li>
-            <!-- <li class="dropdown">
-              <a href="patron.php"
-                ><span>Patrons</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i
-              ></a>
-              <ul>
-              <li><a href="patron-chief.php">Patrons In Chief</a></li>
-              </ul>
-</li> -->
+
+           
+
             <li class="dropdown">
               <a href="#"
                 ><span>Committees</span>
@@ -89,23 +84,34 @@ include("conn.php");
               <li>
                   <a href="executive-committee.php">Executive Committee</a>
                 </li>
-                <li><a href="organizing-committee.php">Organizing Committee</a></li>
-                <li><a href="technical-committee.php">Technical Committee</a></li>
-                <!-- <li><a href="chief-organizer.php">Chief Organizer</a></li> -->
-                <!-- <li><a href="reviewer-committee.php">Reviewers Committee</a></li>
-                <li><a href="awareness-committee.php">Awareness/Outreach Committee</a></li>
-                <li><a href="support-service-committee.php">Support Services Committee</a></li>
-                <li><a href="finance-committee.php">Finance Committee</a></li>
-                <li><a href="operation-committee.php">Operations Committee</a></li> -->
+                <li>
+                  <a href="organizing-committee.php">Organizing Committee</a>
+                </li>
+                <li>
+                  <a href="technical-committee.php">Technical Committee</a>
+                </li>
               </ul>
-            
             </li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="about.php">About Us</a></li>
+            
+
+            <li class="dropdown">
+              <a href="about.php"
+                ><span>About Us</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+          
+              <ul>
+              <li><a href="contact.php">Contact</a></li>
+              </ul>
+            </li>
+            <li><a href="register.php"><button style="color:white; background-color:red; padding:8px 14px;  border-color:red; border-radius:20px;">Register As Attendee</button></a></li>   
+            <li><a href="https://easychair.org/conferences/?conf=ficse2024"><button style="color:white; border-color:red; background-color:red; padding:8px 14px; border-radius:20px;">Submit Paper</button></a></li>   
+
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/conferences/?conf=ficse2024">Submit Paper</a>
+        <!-- <a class="cta-btn d-none d-sm-block" href="https://easychair.org/conferences/?conf=ficse2024">Submit Paper</a> -->
+
       </div>
     </header>
 </body>

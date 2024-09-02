@@ -50,7 +50,7 @@ include("header.php");
                                 Dr. Arif Jamal
                                 </h4>
                                 <h5>
-                                Associate Professor, FUSST
+                                Associate Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ include("header.php");
                                 Dr. Muhammad Haneef  
                                 </h4>
                                 <h5>
-                                Associate Professor, FUSST
+                                Associate Professor DEE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ include("header.php");
                                 Dr. Imran Daud
                                 </h4>
                                 <h5>
-                                Assistant Professor, FUSST
+                                Asssitant Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ include("header.php");
                                 Dr. M Aqeel Iqbal 
                                 </h4>
                                 <h5>
-                                Assistant Professor, FUSST
+                                Asssitant Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ include("header.php");
                                   Dr. Maryam Kausar
                                 </h4>
                                 <h5>
-                                  Assistant Professor, FUSST
+                                  Asssitant Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -145,14 +145,14 @@ include("header.php");
 
             <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
-                        <img src="assets/img/speakers/fahad.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
+                        <img src="assets/img/speakers/Fahad.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
                             <div class="member-info-content">
                                 <h4>
                                Dr. Fahad Khan
                                 </h4>
                                 <h5>
-                                Assistant Professor, FUSST
+                                Asssitant Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ include("header.php");
                                 Dr. Najmul Hassan
                                 </h4>
                                 <h5>
-                                Assistant Professor, FUSST
+                                Asssitant Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ include("header.php");
     <section id="events" class="events section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">   
             <div class="row gy-4">  
-                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                <!-- <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/salma.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
                         <div class="member-info">
@@ -197,13 +197,13 @@ include("header.php");
                                 Dr. Salma Khan
                                 </h4>
                                 <h5>
-                                Assistant Professor, FUSST
+                                Asssitant Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>
                 
                     </div>
-                </div>
+                </div> -->
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                     <div class="member">
                         <img src="assets/img/speakers/noman.jpg" class="img-fluid rounded-circle" alt="" style="width: 280px; height: 280px; object-fit: cover;" />
@@ -213,7 +213,7 @@ include("header.php");
                                 Dr. Muhammad Nouman Noor
                                 </h4>
                                 <h5>
-                                Assistant Professor, FUSST
+                                Asssitant Professor DSE, FUSST
                                 </h5>
                             </div>
                         </div>

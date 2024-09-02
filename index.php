@@ -38,19 +38,29 @@ include("conn.php");
     />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
+
+
+    
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
     <!-- Main CSS FILE LINK -->
     <link href="assets/css/main.css" rel="stylesheet" />
   </head>
 
+
+
   <body class="index-page">
-    <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center"
       >
         <a href="index.php" class="logo d-flex align-items-center me-auto">
           <img src="assets/img/ficselogo.png" alt="" />
 
-          <!-- <h1 class="sitename">TheEvent</h1>  -->
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -66,21 +76,15 @@ include("conn.php");
               ></a>
               <ul>
                 <li><a href="#speakers">Speakers</a></li>
+                <li><a href="panel-discussions.php">Panel Discussion</a></li>
+
                 <li><a href="#call-for-papers">Call for Papers</a></li>
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
             </li>
             <li><a href="#schedule">Schedule</a></li>
 
-            <!-- <li class="dropdown">
-              <a href="patron.php"
-                ><span>Patrons</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i
-              ></a>
-              <ul>
-                <li><a href="patron-chief.php">Patrons In Chief</a></li>
-              </ul>
-            </li> -->
+           
 
             <li class="dropdown">
               <a href="#"
@@ -97,32 +101,26 @@ include("conn.php");
                 <li>
                   <a href="technical-committee.php">Technical Committee</a>
                 </li>
-                <!-- <li><a href="chief-organizer.php">Chief Organizer</a></li> -->
-                <!-- <li>
-                  <a href="reviewer-committee.php">Reviewers Committee</a>
-                </li>
-                <li>
-                  <a href="awareness-committee.php"
-                    >Awareness/Outreach Committee</a
-                  >
-                </li>
-                <li>
-                  <a href="support-service-committee.php"
-                    >Support Services Committee</a
-                  >
-                </li>
-                <li><a href="finance-committee.php">Finance Committee</a></li>
-                <li>
-                  <a href="operation-committee.php">Operations Committee</a>
-                </li> -->
               </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="about.php">About Us</a></li>
+            
+
+            <li class="dropdown">
+              <a href="about.php"
+                ><span>About Us</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+          
+              <ul>
+              <li><a href="#contact">Contact</a></li>
+              </ul>
+            </li>
+            <li><a href="register.php"><button style="color:white; background-color:red; padding:8px 14px;  border-color:red; border-radius:20px;">Register As Attendee</button></a></li>   
+            <li><a href="https://easychair.org/conferences/?conf=ficse2024"><button style="color:white; border-color:red; background-color:red; padding:8px 14px; border-radius:20px;">Submit Paper</button></a></li>   
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <a class="cta-btn d-none d-sm-block" href="https://easychair.org/conferences/?conf=ficse2024">Submit Paper</a>
+        <!-- <a class="cta-btn d-none d-sm-block" href="https://easychair.org/conferences/?conf=ficse2024">Submit Paper</a> -->
 
       </div>
     </header>
@@ -253,7 +251,7 @@ include("conn.php");
               <h3>Where</h3>
               <p>FUSST, Rawalpindi Pakistan</p>
                 <h3>When</h3>
-                <p>Saturday-Sunday<br />September 26-27, 2024</p>
+                <p>Thursday-Friday<br />September 26-27, 2024</p>
               </div>
             </div>
           </div>
@@ -262,68 +260,154 @@ include("conn.php");
       <!-- /Hero Section -->
 
 
+      
+
+      
 
     
       <section id="speakers" class="events section">
   
-   <div class="container" data-aos="fade-up" data-aos-delay="100">   
+   <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">    -->
    <div class="container section-title" data-aos="fade-up">
      <h2>Keynote Speakers<br /></h2>
    </div>
        <div class="row gy-4">
+
+
+       <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+               <div class="member">
+          
+                   <img src="assets/img/speakers/ervin.jpeg" class="img-fluid rounded-circle" alt="" style=" width:320px; height: 320px; object-fit: cover;" />
+                   <div class="member-info">
+                       <div class="member-info-content">
+                           <h4>
+                           Prof Dr. Ervin Sejdic
+                           </h4>
+                           <h5>
+                           University of Toronto Canada
+                           </h5>
+                           <div class="container section-title" >
+        <h6 style="font-weight:bold;">Keynote Topic:- AI & Medicine<br /></h6>
+         </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
          
        <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                <div class="member">
           
-                   <img src="assets/img/speakers/shoaib.jpg" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                   <img src="assets/img/speakers/patric.jfif" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
                    <div class="member-info">
                        <div class="member-info-content">
                            <h4>
-                           Dr. Shoab A. Khan
+                          Prof Dr. Patrick Shearman
                            </h4>
                            <h5>
-                           Chairman Engineering Education Trust, Chancellor
+                          ICMS Sydney Australia
                            </h5>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-               <div class="member">
-           
-                   
-                   <img src="assets/img/speakers/ahsan.jfif" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
-                   <div class="member-info">
-                       <div class="member-info-content">
-                           <h4>
-                           Prof Dr. Ali Ahsan
-                           </h4>
-                           <h5>
-                           Torrens University Australia
-                           </h5>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           
-        
-           <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
-               <div class="member">         
-                   <img src="assets/img/speakers/shaheen.png" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
-                   <div class="member-info">
-                       <div class="member-info-content">
-                           <h4>
-                           Prof Dr. Muhammad Shaheen
-                           </h4>
-                           <h5>
-                           DEAN FEIT, FUSST
-                           </h5>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
+                           <div class="container section-title" >
+     <h6 style="font-weight:bold;">Keynote Topic:- Positive Computing in Healthcare<br /></h6>
    </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+         
+           
+           <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+              <div class="member">
+         
+                  <img src="assets/img/speakers/shoaib.jpg" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                  <div class="member-info">
+                      <div class="member-info-content">
+                          <h4>
+                          Dr. Shoab A. Khan
+                          </h4>
+                          <h5>
+                          Chairman Engineering Education Trust, Chancellor
+                          </h5>
+                          <div class="container section-title" >
+     <h6 style="font-weight:bold;">Keynote Topic:- A Strategic Framework for Emerging Technologies Research in Pakistan <br /></h6>
+   </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+       </div>
+   <!-- </div> -->
+</section>
+
+
+
+
+<section id="speakers" class="events section">
+
+
+      <div class="row gy-4">
+        
+     
+          <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+              <div class="member">
+          
+                  
+                  <img src="assets/img/speakers/ahsan.jpg" class="img-fluid rounded-circle" alt="" style=" width:320px; height: 320px; object-fit: cover;" />
+                  <div class="member-info">
+                      <div class="member-info-content">
+                          <h4>
+                          Prof Dr. Ali Ahsan
+                          </h4>
+                          <h5>
+                          Torrens University Australia
+                          </h5>
+                          <div class="container section-title" >
+     <h6 style="font-weight:bold;">Keynote Topic:- Catalysing Evolution: Harnessing Generative AI for Next-Generation Higher Education<br /></h6>
+   </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+              <div class="member">         
+                  <img src="assets/img/speakers/alikashif.webp" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                  <div class="member-info">
+                      <div class="member-info-content">
+                          <h4>
+                          Prof Dr. Ali Kashif Bashir
+                          </h4>
+                          <h5>
+                          Manchester Metropolitan University UK
+                          </h5>
+                          <div class="container section-title" >
+     <h6 style="font-weight:bold;">Keynote Topic:- <br /></h6>
+   </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+       
+          <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+              <div class="member">         
+                  <img src="assets/img/speakers/shaheen.jpg" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                  <div class="member-info">
+                      <div class="member-info-content">
+                          <h4>
+                          Prof Dr. Muhammad Shaheen
+                          </h4>
+                          <h5>
+                          DEAN FEIT, FUSST
+                          </h5>
+                          <div class="container section-title" >
+     <h6 style="font-weight:bold;">Keynote Topic:- Wisdom Mining:Future of Data Mining<br /></h6>
+   </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div></div>
 </section>
 
      
@@ -413,178 +497,501 @@ include("conn.php");
                 <li>&#8226; Electronic Devices Circuits and Applications</li>
               </ul>
             </div>
+            <div style="text-align:center;">
+    <a style="color: #ffffff;background-color: #f82249; border: 15px solid #f82249;text-decoration: none; transition: 0.3s; border-radius: 20px; font-weight:bold;" href="ficse_flyer.jpeg" target="_blank">VIEW CALL FOR PAPERS</a>
+</div>
           </div>
         </div>
       </section>
 
-      <!-- Schedule Section -->
-      <section id="schedule" class="schedule section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Event Schedule<br /></h2>
-          <p style="color:black;">September 26-27, 2024</p>
-        </div>
-        <!-- End Section Title -->
 
-        <div class="container">
-          <ul
-            class="nav nav-tabs"
-            role="tablist"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+
+
+
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .schedule-header {
+            background-color: #0e1b4d;
+            color: #ffffff;
+            padding: 15px 0;
+            border-radius: 5px;
+        }
+        .schedule-header h5 {
+            margin: 0;
+            font-weight: bold;
+            color:white;
+        }
+        .schedule-item {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .speaker-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #6c757d;
+        }
+    </style>
+
+
+
+<!-- Schedule Section -->
+<section id="schedule" class="schedule section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Event Schedule<br /></h2>
+        <p style="color:black;">September 26-27, 2024</p>
+    </div>
+    <!-- End Section Title -->
+
+    <div class="container">
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="#day-1"
-                role="tab"
-                data-bs-toggle="tab"
-                >Day 1</a
-              >
+                <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Day 1</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab"
-                >Day 2</a
-              >
+                <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 2</a>
             </li>
-          </ul>
+        </ul>
 
-          <div
-            class="tab-content row justify-content-center"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <!-- <h3 class="sub-heading">
-              Voluptatem nulla veniam soluta et corrupti consequatur neque
-              eveniet officia. Eius necessitatibus voluptatem quis labore
-              perspiciatis quia.
-            </h3> -->
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <!-- Day 1 Schedule -->
+            <div class="tab-pane fade show active container my-5" id="day-1" role="tabpanel">
+             
+                
+                <!-- Schedule Header -->
+                <div class="row text-center schedule-header">
+                    <div class="col-md-2">
+                        <h5>Time Slot</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <!-- <h5>Speaker Image</h5> -->
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Details</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Venue</h5>
+                    </div>
+                </div>
+                
+               
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>09:00 - 10:00 am</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Paper Presentation 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session 1</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
 
-            <div
-              role="tabpanel"
-              class="col-lg-9 tab-pane fade show active"
-              id="day-1"
-            >
-            <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 Papers</p>
-    </div>
-</div>
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>10:20 - 10:50 am</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/teabreak.jpg" alt="Tea Break" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Tea Break</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Lobby, Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:20 to 10:50 - Tea break</p>
-    </div>
-</div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - Keynote 1</p>
-    </div>
-</div>
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>10:50 - 11:20 am</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/ahsan.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: Catalysing Evolution: Harnessing Generative AI for Next-Generation Higher Education</h5>
+                        <p>Prof Dr. Ali Ahsan, Torrens University Australia</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - Session 2</p>
-    </div>
-</div>
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>11:20 am - 12:20 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session 2</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+                
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>12:20 - 01:00 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/shoaib.jpg" alt="Speaker 2" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: </h5>
+                        <p>Dr. Shoab A. Khan, Chairman Engineering Education Trust, Chancellor</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - Keynote 2</p>
-    </div>
-</div>
+                <!-- Schedule Item -->
+                <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>01:00 - 02:00 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/lunchbreak.png" alt="lunch" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Lunch Break</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Lobby, Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13:00 to 14:00 - Lunch break</p>
-    </div>
-</div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14:00 to 15:00 - Session 3</p>
-    </div>
-</div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - Keynote 3</p>
-    </div>
-</div>
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>02:00 - 03:00 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session 3</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - Workshop</p>
-    </div>
-</div>
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>03:00 - 03:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/alikashif.webp" alt="Speaker 3" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: </h5>
+                        <p>Prof Dr. Ali Kashif Bashir
+                        Manchester Metropolitan University UK</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+    
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>03:30 - 04:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/workshop.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Workshop</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
+
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>03:30 - 04:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paneldiscussion.jpg" alt="Panel Discussion 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Panel Discussion 1</h5>
+                        <p>OBE in Engineering Education: Pros and Cons.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Video Conference Room, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+                
+                
+                <!-- Additional schedule items can be added here -->
             </div>
-            <!-- End Schdule Day 1 -->
 
-            <!-- Schdule Day 2 -->
-            <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-2">
+            <!-- Day 2 Schedule -->
+            <div class="tab-pane fade container my-5" id="day-2" role="tabpanel">
+                <!-- <h2 class="text-center mb-4">Event Schedule Day 2</h2> -->
+                
+                <!-- Schedule Header -->
+                <div class="row text-center schedule-header">
+                    <div class="col-md-2">
+                        <h5>Time Slot</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <!-- <h5>Speaker Image</h5> -->
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Details</h5>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Venue</h5>
+                    </div>
+                </div>
+                
+                <!-- Schedule Item -->
+                <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>09:00 - 10:00 am</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session 1</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
 
-            <div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">9:00 to 10:20 (Session 1) 4 Papers</p>
-    </div>
-</div>
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>10:20 - 10:50 am</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/teabreak.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Tea Break</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Lobby, Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:20 to 10:50 - Tea break</p>
-    </div>
-</div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">10:50 to 11:20 - Keynote 1</p>
-    </div>
-</div>
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>10:50 - 11:20 am</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/patric.jfif" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: Positive Computing in Healthcare</h5>
+                        <p>Prof Dr. Patrick Shearman, University of Technology Sydney Australia, ICMS Sydney Australia
+</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+                
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>11:20 am - 12:20 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session 2</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">11:20 to 12:20 - Session 2</p>
-    </div>
-</div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">12:20 - 13:00 - Keynote 2</p>
-    </div>
-</div>
+                
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>12:20 - 01:00 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/shaheen.jpg" alt="Speaker 2" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: Wisdom Mining: Future of Data Mining </h5>
+                        <p>Prof Dr. Muhammad Shaheen, DEAN FEIT, FUSST</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">13:00 to 14:00 - Lunch break</p>
-    </div>
-</div>
+                <!-- Schedule Item -->
+                <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>01:00 - 02:00 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/lunchbreak.png" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Lunch Break</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Lobby, Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">14:00 to 15:00 - Session 3</p>
-    </div>
-</div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:00 to 15:30 - Keynote 3</p>
-    </div>
-</div>
 
-<div class="row schedule-item" style="text-align: center; margin-bottom: 0; color: black;">
-    <div class="col-md-12">
-        <p style="margin: 0; line-height: 1; font-weight: bold; color: black;">15:30 to 16:30 - Workshop</p>
-    </div>
-</div>              
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>02:00 - 03:00 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session 3</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+
+                   <!-- Schedule Item -->
+                   <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>03:00 - 03:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/ervin.jpeg" alt="Speaker 3" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: AI & Medicine</h5>
+                        <p>Prof Dr. Ervin Sejdic, University of Toronto Canada</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+                 
+                
+                  <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>03:30 - 04:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/workshop.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Workshop</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                    <strong>03:30 - 04:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paneldiscussion.jpg" alt="Panel Discussion 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Panel Discussion 2</h5>
+                        <p>Artificial Intelligence & Future of Humanity.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Video Conference Room, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+                <!-- Additional schedule items can be added here -->
             </div>
-          </div>
         </div>
-      </section>
-      <!-- /Schedule Section -->
+    </div>
+</section>
+
+
+
 
       <!-- Buy Tickets Section -->
       <section id="buy-tickets" class="buy-tickets section">
@@ -601,38 +1008,52 @@ include("conn.php");
             data-aos-delay="200"
           >
             <div
-              class="col-lg-8 d-flex align-items-center justify-content-center"
+              class="col-lg-10 d-flex align-items-center justify-content-center"
             >
               <ul>
                 
+              <li>
+          <i class="bi bi-calendar-event"></i>&nbsp;
+          <strong>
+            Last Date for Submission of Paper:&nbsp;
+            <span style="text-decoration: line-through; color: red;">August 31, 2024</span>
+            &nbsp; 
+            <span style="color: green;">Extended Date: September 12, 2024.</span>
+          </strong>
+        </li>
+        <li>
+          <i class="bi bi-calendar-event"></i>&nbsp;
+          <strong>
+            Last Date for Submission of Poster:&nbsp;
+            <span style="text-decoration: line-through; color: red;">September 06, 2024</span>
+            
+            <span style="color: green;">Extended Date: September 12, 2024.</span>
+          </strong>
+        </li>
+              
+                <li>
+          <i class="bi bi-calendar-event"></i>&nbsp;
+          <strong>
+          Submission of Camera-ready Papers and
+          Presentations:&nbsp;
+            <span style="text-decoration: line-through; color: red;">September 15, 2024</span>
+            
+            <span style="color: green;">Extended Date: September 20, 2024.</span>
+          </strong>
+        </li>
+
+
+
+
+
+
                 <li>
                   <i class="bi bi-calendar-event"></i>&nbsp;
-                  <strong
-                    >Last Date for Submission of Proposals:&nbsp;August 10,
-                    2024</strong
-                  >
+                  <strong>Proceedings to be Published :&nbsp;2025.</strong>
                 </li>
                 <li>
                   <i class="bi bi-calendar-event"></i>&nbsp;
-                  <strong
-                    >Last Date for Submission of Papers:&nbsp;August 15,
-                    2024</strong
-                  >
-                </li>
-                <li>
-                  <i class="bi bi-calendar-event"></i>&nbsp;
-                  <strong
-                    >Submission of Camera-ready Papers and
-                    Presentations:&nbsp;September 10, 2024</strong
-                  >
-                </li>
-                <li>
-                  <i class="bi bi-calendar-event"></i>&nbsp;
-                  <strong>Proceedings to be Published :&nbsp;2025</strong>
-                </li>
-                <li>
-                  <i class="bi bi-calendar-event"></i>&nbsp;
-                  <strong>Conference Dates:&nbsp;September 26-27, 2024</strong>
+                  <strong>Conference Dates:&nbsp;September 26-27, 2024.</strong>
                 </li>
               </ul>
             </div>
@@ -658,7 +1079,7 @@ include("conn.php");
             data-aos-delay="200"
           >
             <div
-              class="col-lg-6 d-flex align-items-center justify-content-center"
+              class="col-lg-12 d-flex align-items-center justify-content-center"
             >
               <ul>
               
@@ -683,6 +1104,13 @@ include("conn.php");
                     (25 USD)
                   </strong>
                 </li>
+               
+                <br>
+                <br>
+                <p><b style="color:red;">Note: The last date for fee submission is  <span style="text-decoration: line-through;">September 12, 2024</span>
+             <span style="color: green;">Extended Date: September 18, 2024.</span> After this date, a late fee of 1000 PKR (5 USD) will be imposed for all registrations.</b></p>
+                <p><strong style="color: red;">For detailed information regarding fee submission, please contact us at <a href="mailto:ficse@fui.edu.pk" style="color: red;">ficse@fui.edu.pk</a>.</strong></p>
+
               </ul>
             </div>
           </div>
@@ -697,7 +1125,7 @@ include("conn.php");
   <div class="container section-title" data-aos="fade-up">
     <h2>Event Venue<br /></h2>
     <p style="color:black;">
-      Faculty of Engineering and Applied Sciences, Foundation University School of Science and
+      Faculty of Engineering and Information Technology, Foundation University School of Science and
       Technology New Lalazar Rawalpindi, Pakistan.
     </p>
   </div>
@@ -719,7 +1147,6 @@ include("conn.php");
       <div class="col-lg-6 venue-info" style="padding-left: 15px;">
         <div class="row justify-content-center">
           <div class="col-11 col-lg-8 position-relative">
-            <!-- <h4 style="color:white;">Seminar Hall 4th Floor, FUSST, Rawalpindi Pakistan</h4> -->
           </div>
         </div>
       </div>
@@ -885,7 +1312,7 @@ include("conn.php");
                   <div class="faq-content">
                     <p style="color:black;">
                       The event will be held on September 26-27, 2024 at
-                      Faculty of Engineering and  Applied Sciences, Foundation University School of Science and
+                      Faculty of Engineering and  Information Technology, Foundation University School of Science and
             Technology New Lalazar Rawalpindi, Pakistan.
                     </p>
                   </div>
@@ -917,17 +1344,7 @@ include("conn.php");
                 </div>
                 <!-- End Faq item-->
 
-                <!-- <div class="faq-item">
-                  <h3>Is there a fee to attend the event?</h3>
-                  <div class="faq-content">
-                    <p style="color:black;">
-                      Yes, there is a registration fee of [amount]. Early bird
-                      discounts are available until [date].
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div> -->
-                <!-- End Faq item-->
+              
 
                 <div class="faq-item">
                   <h3>Are there sponsorship opportunities available?</h3>
@@ -1022,84 +1439,7 @@ include("conn.php");
             <!-- End Info Item -->
           </div>
 
-          <!-- <div class="row gy-4 mt-1">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.086970124181!2d73.07153891557309!3d33.56111938054432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9324c7c53e6b%3A0xc63a7b443de04c59!2sNew%20Lalazar%2C%20Rawalpindi%2C%20Punjab!5e0!3m2!1sen!2spk!4v1625859166180!5m2!1sen!2s"
-                width="600"
-                height="450"
-                frameborder="0"
-                style="border: 0; width: 100%; height: 400px"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-         
-
-            <div class="col-lg-6">
-              <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      placeholder="Your Name"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      placeholder="Your Email"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      placeholder="Subject"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="6"
-                      placeholder="Message"
-                      required=""
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          
-          </div> -->
+        
         </div>
       </section>
       <!-- /Contact Section -->
@@ -1144,12 +1484,7 @@ include("conn.php");
                 <li>
                   <a href="technical-committee.php">Technical Committee</a>
                 </li>
-                <!-- <li>
-                  <a href="awareness-committee.php">Awareness Committee</a>
-                </li> -->
-                <!-- <li>
-                  <a href="operation-committee.php">Operation Committee</a>
-                </li> -->
+              
               </ul>
             </div>
             <div class="col-lg-3 col-md-3 footer-links">
