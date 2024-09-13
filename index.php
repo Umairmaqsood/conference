@@ -113,6 +113,7 @@ include("conn.php");
           
               <ul>
               <li><a href="#contact">Contact</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
               </ul>
             </li>
             <li><a href="register.php"><button style="color:white; background-color:red; padding:8px 14px;  border-color:red; border-radius:20px;">Register As Attendee</button></a></li>   
@@ -582,12 +583,32 @@ include("conn.php");
                         <h5>Venue</h5>
                     </div>
                 </div>
+
+
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>09:00 - 10:00 am</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/opening_cermony.png" alt="Paper Presentation 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Opening Cermony</h5>
+                        <!-- <p>Chief Guest: Pro Rector FUSST</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
                 
                
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 10:00 am</strong>
+                        <strong>09:30 - 10:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Paper Presentation 1" class="speaker-img">
@@ -606,7 +627,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:20 - 10:50 am</strong>
+                        <strong>10:30 - 11:00 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/teabreak.jpg" alt="Tea Break" class="speaker-img">
@@ -625,7 +646,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:50 - 11:20 am</strong>
+                        <strong>11:00 - 11:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/ahsan.jpg" alt="Speaker 1" class="speaker-img">
@@ -643,7 +664,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>11:20 am - 12:20 pm</strong>
+                        <strong>11:30 am - 12:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
@@ -661,13 +682,13 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>12:20 - 01:00 pm</strong>
+                        <strong>12:30 - 01:00 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/shoaib.jpg" alt="Speaker 2" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Keynote: </h5>
+                        <h5>Keynote: A Strategic Framework for Emerging Technologies Research in Pakistan. </h5>
                         <p>Dr. Shoab A. Khan, Chairman Engineering Education Trust, Chancellor</p>
                     </div>
                     <div class="col-md-3 text-center">
@@ -816,7 +837,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:20 - 10:50 am</strong>
+                        <strong>10:00 - 10:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/teabreak.jpg" alt="Speaker 1" class="speaker-img">
@@ -835,7 +856,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:50 - 11:20 am</strong>
+                        <strong>10:30 - 11:00 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/patric.jfif" alt="Speaker 1" class="speaker-img">
@@ -854,7 +875,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>11:20 am - 12:20 pm</strong>
+                        <strong>11:00 am - 12:00 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
@@ -874,7 +895,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>12:20 - 01:00 pm</strong>
+                        <strong>12:00 - 12:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/shaheen.jpg" alt="Speaker 2" class="speaker-img">
@@ -889,10 +910,11 @@ include("conn.php");
                     </div>
                 </div>
 
+
                 <!-- Schedule Item -->
                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>01:00 - 02:00 pm</strong>
+                        <strong>12:30 - 01:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/lunchbreak.png" alt="Speaker 1" class="speaker-img">
@@ -912,7 +934,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>02:00 - 03:00 pm</strong>
+                        <strong>01:30 - 02:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
@@ -931,7 +953,7 @@ include("conn.php");
                    <!-- Schedule Item -->
                    <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>03:00 - 03:30 pm</strong>
+                        <strong>02:30 - 03:00 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/ervin.jpeg" alt="Speaker 3" class="speaker-img">
@@ -951,7 +973,28 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>03:30 - 04:30 pm</strong>
+                        <strong>03:00 - 03:45 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/closing_cermony.png" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Closing Cermony</h5>
+                        <!-- <p>Chief Guest: TBD</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+
+
+
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>03:45 - 04:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/workshop.jpg" alt="Speaker 1" class="speaker-img">
@@ -966,10 +1009,11 @@ include("conn.php");
                     </div>
                 </div>
 
+
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                    <strong>03:30 - 04:30 pm</strong>
+                        <strong>03:45 - 04:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paneldiscussion.jpg" alt="Panel Discussion 1" class="speaker-img">
@@ -1117,6 +1161,47 @@ include("conn.php");
           <!-- End Pricing Item -->
         </div>
       </section>
+      <!-- /Buy Tickets Section -->
+
+
+
+
+    <!-- Sponsors -->
+<section id="sponsors" class="buy-tickets section light-background">
+  <!-- Section Title -->
+
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Sponsors</h2>
+    <p style="color:black;">We are proud to partner with industry leaders and innovators whose generous support helps us make this event a success.
+    Our sponsors play a crucial role in ensuring the quality and accessibility of the conference, enabling us to provide attendees with valuable experiences and opportunities. We thank them for their continued commitment and contributions.
+    </p>  </div>
+
+  <div class="container">
+    <div
+      class="row gy-4 pricing-item featured mt-4"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row justify-content-center gy-4">
+                <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+                    <div class="member">
+                        <img src="assets/img/speakers/ai_Pakistan.png" alt="" style="width: 280px; height: 280px; object-fit:cover;" />
+                        <div class="member-info"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+
+     
+
+    </div>
+    <!-- End Pricing Item -->
+  </div>
+</section>
       <!-- /Buy Tickets Section -->
 
       <!-- Venue Section -->

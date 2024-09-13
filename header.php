@@ -102,6 +102,8 @@ include("conn.php");
           
               <ul>
               <li><a href="contact.php">Contact</a></li>
+              <li><a href="sponsors.php">Sponsors</a></li>
+
               </ul>
             </li>
             <li><a href="register.php"><button style="color:white; background-color:red; padding:8px 14px;  border-color:red; border-radius:20px;">Register As Attendee</button></a></li>   

@@ -214,7 +214,7 @@ include("header.php");
 
     <section id="events" class="events section">
     <div class="container section-title" data-aos="fade-up">
-          <h2>Cheif Organizer<br /></h2>
+          <h2>Chief Organizer<br /></h2>
         </div>
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row justify-content-center gy-4">
