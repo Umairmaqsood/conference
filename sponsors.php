@@ -29,9 +29,11 @@ include("header.php");
 
   <div class="container section-title" data-aos="fade-up">
     <h2>Our Sponsors</h2>
-    <p style="color:black;">We are proud to partner with industry leaders and innovators whose generous support helps us make this event a success.
+    <!-- <p style="color:black;">We are proud to partner with industry leaders and innovators whose generous support helps us make this event a success.
     Our sponsors play a crucial role in ensuring the quality and accessibility of the conference, enabling us to provide attendees with valuable experiences and opportunities. We thank them for their continued commitment and contributions.
-    </p>
+    </p> -->
+    <p style="color:black;" >For more information visit <a href="https://www.ai-pakistan.com">ai-pakistan.com</a></p>
+
   </div>
 
   <div class="container">
@@ -39,10 +41,7 @@ include("header.php");
       class="row gy-4 pricing-item featured mt-4"
       data-aos="fade-up"
       data-aos-delay="200"
-    >
-
-
-  
+    >  
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row justify-content-center gy-4">
                 <div class="col-xl-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
