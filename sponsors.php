@@ -28,13 +28,11 @@ include("header.php");
   <!-- Section Title -->
 
   <div class="container section-title" data-aos="fade-up">
-    <h2>Our Sponsors</h2>
-    <!-- <p style="color:black;">We are proud to partner with industry leaders and innovators whose generous support helps us make this event a success.
-    Our sponsors play a crucial role in ensuring the quality and accessibility of the conference, enabling us to provide attendees with valuable experiences and opportunities. We thank them for their continued commitment and contributions.
-    </p> -->
-    <p style="color:black;" >For more information visit <a href="https://www.ai-pakistan.com">ai-pakistan.com</a></p>
-
-  </div>
+    <h2>Sponsors</h2>
+    <p style="color:black;">We are proud to partner with industry leaders and innovators like <b><a href="https://www.ai-pakistan.com">AI Pakistan</a></b>, whose generous support helps us make this event a success. Our sponsors play a crucial role in ensuring the quality and accessibility of the conference, enabling us to provide attendees with valuable experiences and opportunities. We thank them for their continued commitment and contributions.
+    </p>  
+<p style="color:black;" >For more information visit <a href="https://www.ai-pakistan.com">ai-pakistan.com</a></p>
+    </div>
 
   <div class="container">
     <div

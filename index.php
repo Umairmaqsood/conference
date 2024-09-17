@@ -381,7 +381,7 @@ include("conn.php");
                           Manchester Metropolitan University UK
                           </h5>
                           <div class="container section-title" >
-     <h6 style="font-weight:bold;">Keynote Topic:- <br /></h6>
+     <h6 style="font-weight:bold;">Keynote Topic:- AI Security<br /></h6>
    </div>
                       </div>
                   </div>
@@ -588,7 +588,7 @@ include("conn.php");
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 10:00 am</strong>
+                        <strong>09:00 - 09:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/opening_cermony.png" alt="Paper Presentation 1" class="speaker-img">
@@ -818,7 +818,7 @@ include("conn.php");
                 <!-- Schedule Item -->
                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 10:00 am</strong>
+                        <strong>09:00 - 09:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
@@ -1172,8 +1172,8 @@ include("conn.php");
 
   <div class="container section-title" data-aos="fade-up">
     <h2>Sponsors</h2>
-    <!-- <p style="color:black;">We are proud to partner with industry leaders and innovators like <b><a href="https://www.ai-pakistan.com">AI Pakistan</a></b>, whose generous support helps us make this event a success. Our sponsors play a crucial role in ensuring the quality and accessibility of the conference, enabling us to provide attendees with valuable experiences and opportunities. We thank them for their continued commitment and contributions.
-    </p>  -->
+    <p style="color:black;">We are proud to partner with industry leaders and innovators like <b><a href="https://www.ai-pakistan.com">AI Pakistan</a></b>, whose generous support helps us make this event a success. Our sponsors play a crucial role in ensuring the quality and accessibility of the conference, enabling us to provide attendees with valuable experiences and opportunities. We thank them for their continued commitment and contributions.
+    </p>  
 <p style="color:black;" >For more information visit <a href="https://www.ai-pakistan.com">ai-pakistan.com</a></p>
     </div>
 

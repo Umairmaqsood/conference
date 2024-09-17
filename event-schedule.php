@@ -107,7 +107,7 @@ include("header.php");
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 10:00 am</strong>
+                        <strong>09:00 - 09:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/opening_cermony.png" alt="Paper Presentation 1" class="speaker-img">
@@ -335,7 +335,7 @@ include("header.php");
                 <!-- Schedule Item -->
                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 10:00 am</strong>
+                        <strong>09:00 - 09:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">

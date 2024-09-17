@@ -141,7 +141,7 @@ include("header.php");
                          Manchester Metropolitan University UK
                          </h5>
                          <div class="container section-title" >
-    <h6 style="font-weight:bold;">Keynote Topic:- <br /></h6>
+    <h6 style="font-weight:bold;">Keynote Topic:- AI Security<br /></h6>
   </div>
                      </div>
                  </div>
