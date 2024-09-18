@@ -103,6 +103,7 @@ include("conn.php");
               <ul>
               <li><a href="contact.php">Contact</a></li>
               <li><a href="sponsors.php">Sponsors</a></li>
+              <li><a href="fee-schedule.php">Fee Schedule</a></li>
 
               </ul>
             </li>

@@ -77,7 +77,6 @@ include("conn.php");
               <ul>
                 <li><a href="#speakers">Speakers</a></li>
                 <li><a href="panel-discussions.php">Panel Discussion</a></li>
-
                 <li><a href="#call-for-papers">Call for Papers</a></li>
                 <li><a href="guidelines.php">Submission Guidelines</a></li>
               </ul>
@@ -110,10 +109,10 @@ include("conn.php");
                 ><span>About Us</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i
               ></a>
-          
               <ul>
               <li><a href="#contact">Contact</a></li>
               <li><a href="#sponsors">Sponsors</a></li>
+              <li><a href="#fee-schedule">Fee Schedule</a></li>
               </ul>
             </li>
             <li><a href="register.php"><button style="color:white; background-color:red; padding:8px 14px;  border-color:red; border-radius:20px;">Register As Attendee</button></a></li>   
@@ -371,17 +370,17 @@ include("conn.php");
 
           <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
               <div class="member">         
-                  <img src="assets/img/speakers/alikashif.webp" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                  <img src="assets/img/speakers/alim.webp" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
                   <div class="member-info">
                       <div class="member-info-content">
                           <h4>
-                          Prof Dr. Ali Kashif Bashir
+                          Dr Mohammed Al-Khalidi
                           </h4>
                           <h5>
                           Manchester Metropolitan University UK
                           </h5>
                           <div class="container section-title" >
-     <h6 style="font-weight:bold;">Keynote Topic:- AI Security<br /></h6>
+     <h6 style="font-weight:bold;">Keynote Topic:- AI-Security<br /></h6>
    </div>
                       </div>
                   </div>
@@ -595,7 +594,7 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Opening Cermony</h5>
-                        <!-- <p>Chief Guest: Pro Rector FUSST</p> -->
+                        <p>Chief Guest: Rector FUI</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -603,19 +602,20 @@ include("conn.php");
                     </div>
                 </div>
 
-                
-               
-                  <!-- Schedule Item -->
-                  <div class="row schedule-item align-items-center">
+
+
+
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:30 - 10:30 am</strong>
+                        <strong>09:30 - 10:00 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
-                        <img src="assets/img/speakers/paperppt.jpg" alt="Paper Presentation 1" class="speaker-img">
+                        <img src="assets/img/speakers/shaheen.jpg" alt="Speaker 2" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 1</h5>
-                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                        <h5>Keynote: Wisdom Mining: Future of Data Mining </h5>
+                        <p>Prof Dr. Muhammad Shaheen, DEAN FEIT, FUSST</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -624,10 +624,11 @@ include("conn.php");
                 </div>
 
 
-                  <!-- Schedule Item -->
-                  <div class="row schedule-item align-items-center">
+
+                    <!-- Schedule Item -->
+                    <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:30 - 11:00 am</strong>
+                        <strong>10:00 - 10:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/teabreak.jpg" alt="Tea Break" class="speaker-img">
@@ -643,17 +644,21 @@ include("conn.php");
                 </div>
 
 
+
+
+
+            
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>11:00 - 11:30 am</strong>
+                        <strong>10:30 - 11:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
-                        <img src="assets/img/speakers/ahsan.jpg" alt="Speaker 1" class="speaker-img">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Paper Presentation 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Keynote: Catalysing Evolution: Harnessing Generative AI for Next-Generation Higher Education</h5>
-                        <p>Prof Dr. Ali Ahsan, Torrens University Australia</p>
+                        <h5>Paper Presentation Session 1</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -661,8 +666,9 @@ include("conn.php");
                     </div>
                 </div>
 
-                  <!-- Schedule Item -->
-                  <div class="row schedule-item align-items-center">
+
+                    <!-- Schedule Item -->
+                    <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
                         <strong>11:30 am - 12:30 pm</strong>
                     </div>
@@ -678,18 +684,19 @@ include("conn.php");
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
-                
+
+
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
                         <strong>12:30 - 01:00 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
-                        <img src="assets/img/speakers/shoaib.jpg" alt="Speaker 2" class="speaker-img">
+                        <img src="assets/img/speakers/ahsan.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Keynote: A Strategic Framework for Emerging Technologies Research in Pakistan. </h5>
-                        <p>Dr. Shoab A. Khan, Chairman Engineering Education Trust, Chancellor</p>
+                        <h5>Keynote: Catalysing Evolution: Harnessing Generative AI for Next-Generation Higher Education</h5>
+                        <p>Prof Dr. Ali Ahsan, Torrens University Australia</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -697,6 +704,8 @@ include("conn.php");
                     </div>
                 </div>
 
+
+                
                 <!-- Schedule Item -->
                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
@@ -717,8 +726,27 @@ include("conn.php");
 
 
 
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>02:00 - 02:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/shoaib.jpg" alt="Speaker 2" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: A Strategic Framework for Emerging Technologies Research in Pakistan. </h5>
+                        <p>Dr. Shoab A. Khan, Chairman Engineering Education Trust, Chancellor</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+
                   <!-- Schedule Item -->
-                  <div class="row schedule-item align-items-center">
+                  <!-- <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
                         <strong>02:00 - 03:00 pm</strong>
                     </div>
@@ -727,44 +755,27 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Paper Presentation Session 3</h5>
-                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                        <p>Dr. John Doe, Professor at XYZ University</p> 
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
-                </div>
+                </div> --->
 
-                  <!-- Schedule Item -->
-                  <div class="row schedule-item align-items-center">
-                    <div class="col-md-2 text-center">
-                        <strong>03:00 - 03:30 pm</strong>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img src="assets/img/speakers/alikashif.webp" alt="Speaker 3" class="speaker-img">
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Keynote: </h5>
-                        <p>Prof Dr. Ali Kashif Bashir
-                        Manchester Metropolitan University UK</p>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <p>Seminar Hall, Foundation University School of Science and
-                        Technology Rawalpindi, Pakistan.</p>
-                    </div>
-                </div>
+                  
     
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>03:30 - 04:30 pm</strong>
+                        <strong>02:30 - 03:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/workshop.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
                         <h5>Workshop</h5>
-                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                        <p>Topic:- Deep Learning</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -776,7 +787,7 @@ include("conn.php");
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>03:30 - 04:30 pm</strong>
+                        <strong>02:30 - 03:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paneldiscussion.jpg" alt="Panel Discussion 1" class="speaker-img">
@@ -787,6 +798,27 @@ include("conn.php");
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Video Conference Room, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+
+
+                <!-- Schedule Item -->
+                  <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>03:30 - 04:30 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/alim.webp" alt="Speaker 3" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Keynote: AI-Security </h5>
+                        <p>Dr Mohammed Al-Khalidi
+                        Manchester Metropolitan University UK</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
@@ -818,7 +850,7 @@ include("conn.php");
                 <!-- Schedule Item -->
                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 09:30 am</strong>
+                        <strong>09:00 - 09:45 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
@@ -837,7 +869,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:00 - 10:30 am</strong>
+                        <strong>09:45 - 10:15 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/teabreak.jpg" alt="Speaker 1" class="speaker-img">
@@ -856,7 +888,7 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:30 - 11:00 am</strong>
+                        <strong>10:15 - 10:45 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/patric.jfif" alt="Speaker 1" class="speaker-img">
@@ -871,11 +903,14 @@ include("conn.php");
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
+
+
+
                 
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>11:00 am - 12:00 pm</strong>
+                        <strong>10:45 - 11:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
@@ -891,18 +926,17 @@ include("conn.php");
                 </div>
 
 
-                
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>12:00 - 12:30 pm</strong>
+                        <strong>11:30 am - 12:30 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
-                        <img src="assets/img/speakers/shaheen.jpg" alt="Speaker 2" class="speaker-img">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Keynote: Wisdom Mining: Future of Data Mining </h5>
-                        <p>Prof Dr. Muhammad Shaheen, DEAN FEIT, FUSST</p>
+                        <h5>Paper Presentation Session 3</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -934,13 +968,13 @@ include("conn.php");
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>01:30 - 02:30 pm</strong>
+                        <strong>01:30 - 02:15 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 3</h5>
+                        <h5>Paper Presentation Session 4</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -953,7 +987,7 @@ include("conn.php");
                    <!-- Schedule Item -->
                    <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>02:30 - 03:00 pm</strong>
+                        <strong>02:15 - 02:45 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/ervin.jpeg" alt="Speaker 3" class="speaker-img">
@@ -980,16 +1014,13 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Closing Cermony</h5>
-                        <!-- <p>Chief Guest: TBD</p> -->
+                        <p>Chief Guest: MD Fauji Foundation / Rector FUI</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
-
-
-
 
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
@@ -1108,7 +1139,7 @@ include("conn.php");
       <!-- /Buy Tickets Section -->
 
       <!-- Buy Tickets Section -->
-      <section id="buy-tickets" class="buy-tickets section light-background">
+      <section id="fee-schedule" class="buy-tickets section light-background">
         <!-- Section Title -->
 
         <div class="container section-title" data-aos="fade-up">

@@ -22,6 +22,8 @@ include("header.php");
     </div>
     <!-- End Page Title -->
 
+   
+    
     <section id="speakers" class="events section">
   
   <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">    -->
@@ -44,8 +46,8 @@ include("header.php");
                           University of Toronto Canada
                           </h5>
                           <div class="container section-title" >
-    <h6 style="font-weight:bold;">Keynote Topic:- AI & Medicine<br /></h6>
-  </div>
+       <h6 style="font-weight:bold;">Keynote Topic:- AI & Medicine<br /></h6>
+        </div>
                       </div>
                   </div>
               </div>
@@ -61,7 +63,7 @@ include("header.php");
                          Prof Dr. Patrick Shearman
                           </h4>
                           <h5>
-                        ICMS Sydney Australia
+                         ICMS Sydney Australia
                           </h5>
                           <div class="container section-title" >
     <h6 style="font-weight:bold;">Keynote Topic:- Positive Computing in Healthcare<br /></h6>
@@ -98,10 +100,6 @@ include("header.php");
 
 
 
-
-
-
-
 <section id="speakers" class="events section">
 
 
@@ -131,17 +129,17 @@ include("header.php");
 
          <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
              <div class="member">         
-                 <img src="assets/img/speakers/alikashif.webp" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
+                 <img src="assets/img/speakers/alim.webp" class="img-fluid rounded-circle" alt="" style="width: 320px; height: 320px; object-fit: cover;" />
                  <div class="member-info">
                      <div class="member-info-content">
                          <h4>
-                         Prof Dr. Ali Kashif Bashir
+                         Dr Mohammed Al-Khalidi
                          </h4>
                          <h5>
                          Manchester Metropolitan University UK
                          </h5>
                          <div class="container section-title" >
-    <h6 style="font-weight:bold;">Keynote Topic:- AI Security<br /></h6>
+    <h6 style="font-weight:bold;">Keynote Topic:- AI-Security<br /></h6>
   </div>
                      </div>
                  </div>
@@ -170,8 +168,6 @@ include("header.php");
      </div>
  </div></div>
 </section>
-
-
 
 
    
