@@ -107,7 +107,7 @@ include("header.php");
 
 
 
-            <div class="col-xl-3 col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+            <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                <div class="member">
            
                    
@@ -126,7 +126,7 @@ include("header.php");
            </div>
 
 
-           <div class="col-xl-3 col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+           <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                <div class="member">         
                <img src="assets/img/speakers/shoaib.jpg" class="img-fluid rounded-circle" alt="" style=" width:230px; height: 230px; object-fit: cover;" />
                    <div class="member-info">
@@ -143,7 +143,7 @@ include("header.php");
            </div>
 
 
-            <div class="col-xl-3 col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+            <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                <div class="member">
            
                    
@@ -162,7 +162,7 @@ include("header.php");
            </div>
 
 
-           <div class="col-xl-3 col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+           <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
                <div class="member">         
                    <img src="assets/img/speakers/shaheen.jpg" class="img-fluid rounded-circle" alt="" style=" width:230px; height: 230px; object-fit: cover;" />
                    <div class="member-info">
@@ -177,6 +177,29 @@ include("header.php");
                    </div>
                </div>
            </div>
+
+
+
+           <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
+               <div class="member">
+           
+                   
+                   <img src="assets/img/speakers/tanveer.jpeg" class="img-fluid rounded-circle" alt="" style=" width:230px; height: 230px; object-fit: cover;" />
+                   <div class="member-info">
+                       <div class="member-info-content">
+                           <h6>
+                           Prof Dr. Tanvir Afzal
+                           </h6>
+                           <h6>
+                           Shifa Tameer-e-Millat University, Islamabad.
+                           </h6>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+
+
             </div>
         </div>
     </section>

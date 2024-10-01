@@ -61,7 +61,6 @@ include("header.php");
     </style>
 
 
-
 <!-- Schedule Section -->
 <section id="schedule" class="schedule section">
     <!-- Section Title -->
@@ -106,7 +105,7 @@ include("header.php");
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 09:30 am</strong>
+                        <strong>09:15 - 09:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/opening_cermony.png" alt="Paper Presentation 1" class="speaker-img">
@@ -127,7 +126,7 @@ include("header.php");
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:30 - 10:00 am</strong>
+                        <strong>09:30 - 09:50 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/shaheen.jpg" alt="Speaker 2" class="speaker-img">
@@ -147,7 +146,7 @@ include("header.php");
                     <!-- Schedule Item -->
                     <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:00 - 10:30 am</strong>
+                        <strong>09:50 - 10:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/teabreak.jpg" alt="Tea Break" class="speaker-img">
@@ -161,11 +160,6 @@ include("header.php");
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
-
-
-
-
-
             
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
@@ -176,7 +170,7 @@ include("header.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Paper Presentation 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 1</h5>
+                        <h5>Paper Presentation Session (Artificial Intelligence)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -195,7 +189,7 @@ include("header.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 2</h5>
+                        <h5>Paper Presentation Session (Soft Computing)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -234,7 +228,7 @@ include("header.php");
                         <img src="assets/img/speakers/lunchbreak.png" alt="lunch" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Lunch Break</h5>
+                        <h5>Lunch/Prayer Break</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -265,26 +259,6 @@ include("header.php");
 
 
                   <!-- Schedule Item -->
-                  <!-- <div class="row schedule-item align-items-center">
-                    <div class="col-md-2 text-center">
-                        <strong>02:00 - 03:00 pm</strong>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Paper Presentation Session 3</h5>
-                        <p>Dr. John Doe, Professor at XYZ University</p> 
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <p>Seminar Hall, Foundation University School of Science and
-                        Technology Rawalpindi, Pakistan.</p>
-                    </div>
-                </div> --->
-
-                  
-    
-                  <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
                         <strong>02:30 - 03:30 pm</strong>
@@ -294,10 +268,11 @@ include("header.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Workshop</h5>
-                        <p>Topic:- Deep Learning</p>
+                        <h4>Moderator: Mr. Mohsan Tanveer</h4>
+                        <p>Topic : Deep Learning</p>
                     </div>
                     <div class="col-md-3 text-center">
-                        <p>Seminar Hall, Foundation University School of Science and
+                        <p>FYP Lab, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
@@ -313,7 +288,8 @@ include("header.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Panel Discussion 1</h5>
-                        <p>OBE in Engineering Education: Pros and Cons.</p>
+                      <h4>Convener : Prof Dr. Abdul Ghafoor</h4>
+                        <p>Topic: OBE in Engineering Education: Pros and Cons.</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Video Conference Room, Foundation University School of Science and
@@ -326,7 +302,7 @@ include("header.php");
                 <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>03:30 - 04:30 pm</strong>
+                        <strong>03:30 - 04:00 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/alim.webp" alt="Speaker 3" class="speaker-img">
@@ -375,7 +351,7 @@ include("header.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 1</h5>
+                        <h5>Paper Presentation Session (Image Processing)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -435,7 +411,7 @@ include("header.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 2</h5>
+                        <h5>Paper Presentation Session (Artificial Intelligence)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -454,7 +430,27 @@ include("header.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 3</h5>
+                        <h5>Paper Presentation Session (Soft Computing)</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+
+
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>12:30 am - 01:10 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session (Image Processing)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -467,13 +463,13 @@ include("header.php");
                 <!-- Schedule Item -->
                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>12:30 - 01:30 pm</strong>
+                        <strong>01:10 - 02:10 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/lunchbreak.png" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Lunch Break</h5>
+                        <h5>Lunch/Prayer Break</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -485,7 +481,7 @@ include("header.php");
 
 
                   <!-- Schedule Item -->
-                  <div class="row schedule-item align-items-center">
+                  <!-- <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
                         <strong>01:30 - 02:15 pm</strong>
                     </div>
@@ -494,19 +490,19 @@ include("header.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Paper Presentation Session 4</h5>
-                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                         <p>Dr. John Doe, Professor at XYZ University</p> 
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
-                </div>
+                </div> -->
 
 
                    <!-- Schedule Item -->
                    <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>02:15 - 02:45 pm</strong>
+                        <strong>02:10 - 02:40 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/ervin.jpeg" alt="Speaker 3" class="speaker-img">
@@ -522,7 +518,7 @@ include("header.php");
                 </div>
 
                  
-                
+              
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
@@ -533,7 +529,7 @@ include("header.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Closing Cermony</h5>
-                        <p>Chief Guest: MD Fauji Foundation / Rector FUI</p>
+                        <p>Chief Guest: TBD</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -551,14 +547,14 @@ include("header.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Workshop</h5>
-                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                        <h4>Moderator : Mr. Umair Maqsood</h4>
+                        <p>Topic : Web Development</p>
                     </div>
                     <div class="col-md-3 text-center">
-                        <p>Seminar Hall, Foundation University School of Science and
+                        <p>FYP Lab, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
-
 
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
@@ -570,7 +566,8 @@ include("header.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Panel Discussion 2</h5>
-                        <p>Artificial Intelligence & Future of Humanity.</p>
+                        <h4>Convenor :Prof Dr. Tanvir Afzal</h4>
+                        <p>Topic: Artificial Intelligence & Future of Humanity.</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Video Conference Room, Foundation University School of Science and
@@ -583,6 +580,8 @@ include("header.php");
         </div>
     </div>
 </section>
+
+
 
 
 

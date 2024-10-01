@@ -53,6 +53,55 @@ include("conn.php");
 
 
 
+  <style>
+        /* Keyframe for fade-in animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Animation for button hover effect */
+        @keyframes hoverEffect {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; border-radius:30px;">
+
+    <!-- Banner Section -->
+    <div id="banner" style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background-color: rgba(0,0,0,0.7); background-image: url('banner-image.jpg'); background-size: cover; background-position: center; display: flex; justify-content: center; align-items: center; z-index: 9999; animation: fadeIn 2s;">
+        <div style="background-color: #000820; padding: 20px; border-radius: 10px; text-align: center; position: relative; animation: fadeIn 2s;">
+            <!-- Close Button -->
+            <span id="closeBanner" style="position: absolute; top: 10px; right: 10px; color: white; font-size: 24px; cursor: pointer;">&times;</span>
+
+            <h1 style="font-size: 2em; color: #ffcc00; margin-bottom: 20px; animation: fadeIn 2s;">
+                FUSST <br>
+                <span style="color: #3498db;">INTERNATIONAL CONFERENCE ON COMPUTER SCIENCE AND ENGINEERING</span>
+            </h1>
+
+            <!-- <p style="color: white; font-size: 1.2em; margin-bottom: 20px; animation: fadeIn 2s;">
+                Conference Dates: <strong>Sep 26-27, 2024</strong>
+            </p> -->
+            <a href="ConferenceSchedule.pdf" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #f82249; color: white; text-decoration: none; font-size: 1.2em; border-radius: 5px; transition: background-color 0.3s ease; animation: fadeIn 2s, hoverEffect 0.5s ease infinite;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                Conference Proceedings
+            </a>
+            <p style="color: white; font-size: 1em; margin-top: 10px; animation: fadeIn 2s; font-weight:bold;">
+                Click the button to view the Conference Proceedings.
+            </p>
+        </div>
+    </div>
+
+    <!-- Inline JavaScript -->
+    <script>
+        // Close the banner when the close (X) button is clicked
+        document.getElementById('closeBanner').addEventListener('click', function() {
+            document.getElementById('banner').style.display = 'none';
+        });
+    </script>
+
+
+
   <body class="index-page">
   <header id="header" class="header d-flex align-items-center fixed-top">
       <div
@@ -208,50 +257,55 @@ include("conn.php");
     </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Set the date we're counting down to
-            var countDownDate = new Date("September 26, 2024 00:00:00").getTime();
+    document.addEventListener("DOMContentLoaded", function() {
+        // Set the date we're counting down to
+        var countDownDate = new Date("September 26, 2024 00:00:00").getTime();
 
-            // Update the count down every 1 second
-            var countdownFunction = setInterval(function() {
-                // Get today's date and time
-                var now = new Date().getTime();
+        // Update the count down every 1 second
+        var countdownFunction = setInterval(function() {
+            // Get today's date and time
+            var now = new Date().getTime();
 
-                // Find the distance between now and the count down date
-                var distance = countDownDate - now;
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
 
-                // Time calculations for days, hours, minutes, and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            // Time calculations for days, hours, minutes, and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                // Pad numbers with leading zeros
-                days = days < 10 ? "0" + days : days;
-                hours = hours < 10 ? "0" + hours : hours;
-                minutes = minutes < 10 ? "0" + minutes : minutes;
-                seconds = seconds < 10 ? "0" + seconds : seconds;
+            // Pad numbers with leading zeros
+            days = days < 10 ? "0" + days : days;
+            hours = hours < 10 ? "0" + hours : hours;
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
 
-                // Display the result
-                document.getElementById("days").innerHTML = days;
-                document.getElementById("hours").innerHTML = hours;
-                document.getElementById("minutes").innerHTML = minutes;
-                document.getElementById("seconds").innerHTML = seconds;
+            // Display the result
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
 
-                // If the count down is over, write some text
-                if (distance < 0) {
-                    clearInterval(countdownFunction);
-                    document.getElementById("countdown").innerHTML = "EXPIRED";
-                }
-            }, 1000);
-        });
-    </script>
+            // If the countdown has reached zero or passed
+            if (distance <= 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("days").innerHTML = "00";
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("seconds").innerHTML = "00";
+            }
+        }, 1000);
+    });
+</script>
+
               </div>
               <div class="col-lg-3">
               <h3>Where</h3>
               <p>FUSST, Rawalpindi Pakistan</p>
                 <h3>When</h3>
                 <p>Thursday-Friday<br />September 26-27, 2024</p>
+                <a  href="Proceeding_Book.pdf" target="_blank" style="color:red; text-decoration:none; font-weight:bold;">Download Conference Proceedings</a>
               </div>
             </div>
           </div>
@@ -315,6 +369,7 @@ include("conn.php");
            </div>
          
            
+
            <div class="col-xl-4 col-lg-4 col-md-4" data-aos="fade-up" data-aos-delay="100" style="text-align:center">
               <div class="member">
          
@@ -587,7 +642,7 @@ include("conn.php");
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:00 - 09:30 am</strong>
+                        <strong>09:15 - 09:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/opening_cermony.png" alt="Paper Presentation 1" class="speaker-img">
@@ -608,7 +663,7 @@ include("conn.php");
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>09:30 - 10:00 am</strong>
+                        <strong>09:30 - 09:50 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/shaheen.jpg" alt="Speaker 2" class="speaker-img">
@@ -628,7 +683,7 @@ include("conn.php");
                     <!-- Schedule Item -->
                     <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>10:00 - 10:30 am</strong>
+                        <strong>09:50 - 10:30 am</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/teabreak.jpg" alt="Tea Break" class="speaker-img">
@@ -642,11 +697,6 @@ include("conn.php");
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
-
-
-
-
-
             
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
@@ -657,7 +707,7 @@ include("conn.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Paper Presentation 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 1</h5>
+                        <h5>Paper Presentation Session (Artificial Intelligence)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -676,7 +726,7 @@ include("conn.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 2</h5>
+                        <h5>Paper Presentation Session (Soft Computing)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -715,7 +765,7 @@ include("conn.php");
                         <img src="assets/img/speakers/lunchbreak.png" alt="lunch" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Lunch Break</h5>
+                        <h5>Lunch/Prayer Break</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -746,26 +796,6 @@ include("conn.php");
 
 
                   <!-- Schedule Item -->
-                  <!-- <div class="row schedule-item align-items-center">
-                    <div class="col-md-2 text-center">
-                        <strong>02:00 - 03:00 pm</strong>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Paper Presentation Session 3</h5>
-                        <p>Dr. John Doe, Professor at XYZ University</p> 
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <p>Seminar Hall, Foundation University School of Science and
-                        Technology Rawalpindi, Pakistan.</p>
-                    </div>
-                </div> --->
-
-                  
-    
-                  <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
                         <strong>02:30 - 03:30 pm</strong>
@@ -775,10 +805,11 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Workshop</h5>
-                        <p>Topic:- Deep Learning</p>
+                        <h4>Moderator: Mr. Mohsan Tanveer</h4>
+                        <p>Topic : Deep Learning</p>
                     </div>
                     <div class="col-md-3 text-center">
-                        <p>Seminar Hall, Foundation University School of Science and
+                        <p>FYP Lab, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
@@ -794,7 +825,8 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Panel Discussion 1</h5>
-                        <p>OBE in Engineering Education: Pros and Cons.</p>
+                      <h4>Convener : Prof Dr. Abdul Ghafoor</h4>
+                        <p>Topic: OBE in Engineering Education: Pros and Cons.</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Video Conference Room, Foundation University School of Science and
@@ -807,7 +839,7 @@ include("conn.php");
                 <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>03:30 - 04:30 pm</strong>
+                        <strong>03:30 - 04:00 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/alim.webp" alt="Speaker 3" class="speaker-img">
@@ -856,7 +888,7 @@ include("conn.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 1</h5>
+                        <h5>Paper Presentation Session (Image Processing)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -916,7 +948,7 @@ include("conn.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 2</h5>
+                        <h5>Paper Presentation Session (Artificial Intelligence)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -935,7 +967,27 @@ include("conn.php");
                         <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Paper Presentation Session 3</h5>
+                        <h5>Paper Presentation Session (Soft Computing)</h5>
+                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>Seminar Hall, Foundation University School of Science and
+                        Technology Rawalpindi, Pakistan.</p>
+                    </div>
+                </div>
+
+
+
+                 <!-- Schedule Item -->
+                 <div class="row schedule-item align-items-center">
+                    <div class="col-md-2 text-center">
+                        <strong>12:30 am - 01:10 pm</strong>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img src="assets/img/speakers/paperppt.jpg" alt="Speaker 1" class="speaker-img">
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Paper Presentation Session (Image Processing)</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -948,13 +1000,13 @@ include("conn.php");
                 <!-- Schedule Item -->
                 <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>12:30 - 01:30 pm</strong>
+                        <strong>01:10 - 02:10 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/lunchbreak.png" alt="Speaker 1" class="speaker-img">
                     </div>
                     <div class="col-md-4">
-                        <h5>Lunch Break</h5>
+                        <h5>Lunch/Prayer Break</h5>
                         <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
                     </div>
                     <div class="col-md-3 text-center">
@@ -966,7 +1018,7 @@ include("conn.php");
 
 
                   <!-- Schedule Item -->
-                  <div class="row schedule-item align-items-center">
+                  <!-- <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
                         <strong>01:30 - 02:15 pm</strong>
                     </div>
@@ -975,19 +1027,19 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Paper Presentation Session 4</h5>
-                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                         <p>Dr. John Doe, Professor at XYZ University</p> 
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
-                </div>
+                </div> -->
 
 
                    <!-- Schedule Item -->
                    <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
-                        <strong>02:15 - 02:45 pm</strong>
+                        <strong>02:10 - 02:40 pm</strong>
                     </div>
                     <div class="col-md-3 text-center">
                         <img src="assets/img/speakers/ervin.jpeg" alt="Speaker 3" class="speaker-img">
@@ -1003,7 +1055,7 @@ include("conn.php");
                 </div>
 
                  
-                
+              
                   <!-- Schedule Item -->
                   <div class="row schedule-item align-items-center">
                     <div class="col-md-2 text-center">
@@ -1014,7 +1066,7 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Closing Cermony</h5>
-                        <p>Chief Guest: MD Fauji Foundation / Rector FUI</p>
+                        <p>Chief Guest: TBD</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Seminar Hall, Foundation University School of Science and
@@ -1032,14 +1084,14 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Workshop</h5>
-                        <!-- <p>Dr. John Doe, Professor at XYZ University</p> -->
+                        <h4>Moderator : Mr. Umair Maqsood</h4>
+                        <p>Topic : Web Development</p>
                     </div>
                     <div class="col-md-3 text-center">
-                        <p>Seminar Hall, Foundation University School of Science and
+                        <p>FYP Lab, Foundation University School of Science and
                         Technology Rawalpindi, Pakistan.</p>
                     </div>
                 </div>
-
 
                  <!-- Schedule Item -->
                  <div class="row schedule-item align-items-center">
@@ -1051,7 +1103,8 @@ include("conn.php");
                     </div>
                     <div class="col-md-4">
                         <h5>Panel Discussion 2</h5>
-                        <p>Artificial Intelligence & Future of Humanity.</p>
+                        <h4>Convenor :Prof Dr. Tanvir Afzal</h4>
+                        <p>Topic: Artificial Intelligence & Future of Humanity.</p>
                     </div>
                     <div class="col-md-3 text-center">
                         <p>Video Conference Room, Foundation University School of Science and

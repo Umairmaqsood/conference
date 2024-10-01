@@ -21,8 +21,6 @@ include("header.php");
         </div>
     </div>
     <!-- End Page Title -->
-
-   
     
     <section id="speakers" class="events section">
   
